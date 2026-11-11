@@ -1,0 +1,1001 @@
+customer_id,trial_start_date,cohort_month,converted_to_paid,first_paid_plan,first_paid_date,days_trial_to_paid,last_paid_plan,current_plan,is_churned,churn_date,churned_from_plan,n_events,n_upgrades,ever_upgraded,plan_path,last_event_plan,last_event_date,observation_end,follow_up_days,paid_days,is_censored,annual_term_expired_no_event
+1,2020-08-01,2020-08,True,basic monthly,2020-08-08,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-08,2021-04-30,272,265,True,False
+2,2020-09-20,2020-09,True,pro annual,2020-09-27,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-09-27,2021-04-30,222,215,True,False
+3,2020-01-13,2020-01,True,basic monthly,2020-01-20,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-20,2021-04-30,473,466,True,False
+4,2020-01-17,2020-01,True,basic monthly,2020-01-24,7,basic monthly,churned,True,2020-04-21,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-04-21,2021-04-30,95,88,False,False
+5,2020-08-03,2020-08,True,basic monthly,2020-08-10,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-10,2021-04-30,270,263,True,False
+6,2020-12-23,2020-12,True,basic monthly,2020-12-30,7,basic monthly,churned,True,2021-02-26,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-02-26,2021-04-30,65,58,False,False
+7,2020-02-05,2020-02,True,basic monthly,2020-02-12,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-22,2021-04-30,450,443,True,False
+8,2020-06-11,2020-06,True,basic monthly,2020-06-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-03,2021-04-30,323,316,True,False
+9,2020-12-07,2020-12,True,pro annual,2020-12-14,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-12-14,2021-04-30,144,137,True,False
+10,2020-09-19,2020-09,True,pro monthly,2020-09-26,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-26,2021-04-30,223,216,True,False
+11,2020-11-19,2020-11,False,,,,,churned,True,2020-11-26,trial,2,0,False,trial > churn,churn,2020-11-26,2021-04-30,7,,False,False
+12,2020-09-22,2020-09,True,basic monthly,2020-09-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-29,2021-04-30,220,213,True,False
+13,2020-12-15,2020-12,True,basic monthly,2020-12-22,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-29,2021-04-30,136,129,True,False
+14,2020-09-22,2020-09,True,basic monthly,2020-09-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-29,2021-04-30,220,213,True,False
+15,2020-03-17,2020-03,True,pro monthly,2020-03-24,7,pro monthly,churned,True,2020-04-29,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-04-29,2021-04-30,43,36,False,False
+16,2020-05-31,2020-05,True,basic monthly,2020-06-07,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-21,2021-04-30,334,327,True,False
+17,2020-07-27,2020-07,True,basic monthly,2020-08-03,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-11,2021-04-30,277,270,True,False
+18,2020-07-06,2020-07,True,pro monthly,2020-07-13,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-13,2021-04-30,298,291,True,False
+19,2020-06-22,2020-06,True,pro monthly,2020-06-29,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-29,2021-04-30,312,305,True,False
+20,2020-04-08,2020-04,True,basic monthly,2020-04-15,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-06-05,2021-04-30,387,380,True,False
+21,2020-02-04,2020-02,True,basic monthly,2020-02-11,7,pro monthly,churned,True,2020-09-27,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-09-27,2021-04-30,236,229,False,False
+22,2020-01-10,2020-01,True,pro monthly,2020-01-17,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-17,2021-04-30,476,469,True,False
+23,2020-05-13,2020-05,True,pro annual,2020-05-20,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-05-20,2021-04-30,352,345,True,False
+24,2020-11-10,2020-11,True,pro monthly,2020-11-17,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-04-17,2021-04-30,171,164,True,False
+25,2020-05-10,2020-05,True,basic monthly,2020-05-17,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-16,2021-04-30,355,348,True,False
+26,2020-12-08,2020-12,True,pro monthly,2020-12-15,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-15,2021-04-30,143,136,True,False
+27,2020-08-24,2020-08,True,pro monthly,2020-08-31,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-31,2021-04-30,249,242,True,False
+28,2020-06-30,2020-06,True,pro annual,2020-07-07,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-07-07,2021-04-30,304,297,True,False
+29,2020-01-23,2020-01,True,pro monthly,2020-01-30,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-30,2021-04-30,463,456,True,False
+30,2020-04-29,2020-04,True,basic monthly,2020-05-06,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-06,2021-04-30,366,359,True,False
+31,2020-06-22,2020-06,True,pro monthly,2020-06-29,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-29,2021-04-30,312,305,True,False
+32,2020-06-12,2020-06,True,basic monthly,2020-06-19,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-18,2021-04-30,322,315,True,False
+33,2020-09-03,2020-09,True,pro monthly,2020-09-10,7,pro monthly,churned,True,2021-02-05,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-02-05,2021-04-30,155,148,False,False
+34,2020-12-20,2020-12,True,basic monthly,2020-12-27,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-26,2021-04-30,131,124,True,False
+35,2020-09-03,2020-09,True,pro monthly,2020-09-10,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-10,2021-04-30,239,232,True,False
+36,2020-02-25,2020-02,True,pro monthly,2020-03-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-03,2021-04-30,430,423,True,False
+37,2020-08-05,2020-08,True,basic monthly,2020-08-12,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-11,2021-04-30,268,261,True,False
+38,2020-10-02,2020-10,True,pro monthly,2020-10-09,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-09,2021-04-30,210,203,True,False
+39,2020-05-28,2020-05,True,basic monthly,2020-06-04,7,pro monthly,churned,True,2020-09-10,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-09-10,2021-04-30,105,98,False,False
+40,2020-01-22,2020-01,True,basic monthly,2020-01-29,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-03-25,2021-04-30,464,457,True,False
+41,2020-05-16,2020-05,True,pro monthly,2020-05-23,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-23,2021-04-30,349,342,True,False
+42,2020-10-27,2020-10,True,basic monthly,2020-11-03,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-04-28,2021-04-30,185,178,True,False
+43,2020-08-13,2020-08,True,basic monthly,2020-08-20,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-18,2021-04-30,260,253,True,False
+44,2020-03-17,2020-03,True,pro annual,2020-03-24,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-03-24,2021-04-30,409,402,True,True
+45,2020-02-11,2020-02,True,basic monthly,2020-02-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-12,2021-04-30,444,437,True,False
+46,2020-04-19,2020-04,True,basic monthly,2020-04-26,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-08-06,2021-04-30,376,369,True,False
+47,2020-06-06,2020-06,True,basic monthly,2020-06-13,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-26,2021-04-30,328,321,True,False
+48,2020-01-11,2020-01,True,basic monthly,2020-01-18,7,basic monthly,churned,True,2020-06-01,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-06-01,2021-04-30,142,135,False,False
+49,2020-04-24,2020-04,True,pro monthly,2020-05-01,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-01,2021-04-30,371,364,True,False
+50,2020-07-21,2020-07,True,pro monthly,2020-07-28,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-28,2021-04-30,283,276,True,False
+51,2020-01-19,2020-01,True,basic monthly,2020-01-26,7,pro annual,churned,True,2021-03-09,pro annual,4,1,True,trial > basic monthly > pro annual > churn,churn,2021-03-09,2021-04-30,415,408,False,False
+52,2020-05-31,2020-05,True,basic monthly,2020-06-07,7,basic monthly,churned,True,2020-07-05,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-05,2021-04-30,35,28,False,False
+53,2020-01-18,2020-01,True,basic monthly,2020-01-25,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-25,2021-04-30,468,461,True,False
+54,2020-05-23,2020-05,True,pro monthly,2020-05-30,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-30,2021-04-30,342,335,True,False
+55,2020-10-22,2020-10,True,basic monthly,2020-10-29,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-03-01,2021-04-30,190,183,True,False
+56,2020-01-03,2020-01,True,pro annual,2020-01-10,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-01-10,2021-04-30,483,476,True,True
+57,2020-03-03,2020-03,True,pro monthly,2020-03-10,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-10,2021-04-30,423,416,True,False
+58,2020-07-04,2020-07,True,basic monthly,2020-07-11,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-24,2021-04-30,300,293,True,False
+59,2020-10-30,2020-10,True,basic monthly,2020-11-06,7,basic monthly,churned,True,2021-04-29,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-04-29,2021-04-30,181,174,False,False
+60,2020-06-17,2020-06,True,basic monthly,2020-06-24,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-24,2021-04-30,317,310,True,False
+61,2020-08-31,2020-08,True,basic monthly,2020-09-07,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-02-13,2021-04-30,242,235,True,False
+62,2020-10-12,2020-10,True,basic monthly,2020-10-19,7,pro monthly,churned,True,2021-02-23,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-02-23,2021-04-30,134,127,False,False
+63,2020-05-28,2020-05,True,basic monthly,2020-06-04,7,basic monthly,churned,True,2020-06-18,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-06-18,2021-04-30,21,14,False,False
+64,2020-03-08,2020-03,True,basic monthly,2020-03-15,7,pro monthly,churned,True,2020-04-27,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-04-27,2021-04-30,50,43,False,False
+65,2020-05-12,2020-05,True,basic monthly,2020-05-19,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-09,2021-04-30,353,346,True,False
+66,2020-07-30,2020-07,True,basic monthly,2020-08-06,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-04,2021-04-30,274,267,True,False
+67,2020-08-14,2020-08,True,pro monthly,2020-08-21,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-21,2021-04-30,259,252,True,False
+68,2020-04-10,2020-04,True,pro annual,2020-04-17,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-04-17,2021-04-30,385,378,True,True
+69,2020-03-07,2020-03,True,basic monthly,2020-03-14,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-04-14,2021-04-30,419,412,True,False
+70,2020-07-06,2020-07,True,basic monthly,2020-07-13,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-06,2021-04-30,298,291,True,False
+71,2020-07-23,2020-07,True,pro monthly,2020-07-30,7,pro monthly,churned,True,2020-12-08,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-12-08,2021-04-30,138,131,False,False
+72,2020-12-10,2020-12,True,pro monthly,2020-12-17,7,pro monthly,churned,True,2021-02-01,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-02-01,2021-04-30,53,46,False,False
+73,2020-03-24,2020-03,True,basic monthly,2020-03-31,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-10-13,2021-04-30,402,395,True,False
+74,2020-05-24,2020-05,True,basic monthly,2020-05-31,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-01,2021-04-30,341,334,True,False
+75,2020-07-14,2020-07,True,basic monthly,2020-07-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-19,2021-04-30,290,283,True,False
+76,2020-08-31,2020-08,True,pro annual,2020-09-07,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-09-07,2021-04-30,242,235,True,False
+77,2020-04-18,2020-04,True,pro monthly,2020-04-25,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-10-25,2021-04-30,377,370,True,False
+78,2020-09-03,2020-09,True,pro monthly,2020-09-10,7,pro monthly,churned,True,2021-02-19,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-02-19,2021-04-30,169,162,False,False
+79,2020-07-30,2020-07,True,pro monthly,2020-08-06,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-06,2021-04-30,274,267,True,False
+80,2020-09-23,2020-09,True,pro monthly,2020-09-30,7,pro monthly,churned,True,2021-01-17,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-01-17,2021-04-30,116,109,False,False
+81,2020-05-29,2020-05,True,pro monthly,2020-06-05,7,pro monthly,churned,True,2020-10-20,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-10-20,2021-04-30,144,137,False,False
+82,2020-05-02,2020-05,True,basic monthly,2020-05-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-09,2021-04-30,363,356,True,False
+83,2020-05-18,2020-05,True,basic monthly,2020-05-25,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-04-29,2021-04-30,347,340,True,False
+84,2020-06-14,2020-06,True,basic monthly,2020-06-21,7,basic monthly,churned,True,2020-07-07,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-07,2021-04-30,23,16,False,False
+85,2020-08-13,2020-08,True,basic monthly,2020-08-20,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-20,2021-04-30,260,253,True,False
+86,2020-07-10,2020-07,True,pro annual,2020-07-17,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-07-17,2021-04-30,294,287,True,False
+87,2020-08-08,2020-08,True,pro monthly,2020-08-15,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-15,2021-04-30,265,258,True,False
+88,2020-12-30,2020-12,True,pro monthly,2021-01-06,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2021-01-06,2021-04-30,121,114,True,False
+89,2020-03-05,2020-03,True,pro monthly,2020-03-12,7,pro monthly,churned,True,2020-09-02,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-09-02,2021-04-30,181,174,False,False
+90,2020-11-25,2020-11,True,basic monthly,2020-12-02,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-04-28,2021-04-30,156,149,True,False
+91,2020-09-08,2020-09,True,pro monthly,2020-09-15,7,pro monthly,churned,True,2021-03-04,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-03-04,2021-04-30,177,170,False,False
+92,2020-11-02,2020-11,True,basic monthly,2020-11-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-09,2021-04-30,179,172,True,False
+93,2020-03-14,2020-03,True,pro monthly,2020-03-21,7,pro monthly,churned,True,2020-08-30,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-08-30,2021-04-30,169,162,False,False
+94,2020-12-09,2020-12,True,pro monthly,2020-12-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-16,2021-04-30,142,135,True,False
+95,2020-11-02,2020-11,True,basic monthly,2020-11-09,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-16,2021-04-30,179,172,True,False
+96,2020-08-22,2020-08,True,basic monthly,2020-08-29,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-23,2021-04-30,251,244,True,False
+97,2020-10-29,2020-10,True,basic monthly,2020-11-05,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-05,2021-04-30,183,176,True,False
+98,2020-01-05,2020-01,True,basic monthly,2020-01-12,7,pro monthly,churned,True,2020-04-05,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-04-05,2021-04-30,91,84,False,False
+99,2020-12-05,2020-12,False,,,,,churned,True,2020-12-12,trial,2,0,False,trial > churn,churn,2020-12-12,2021-04-30,7,,False,False
+100,2020-06-02,2020-06,True,basic monthly,2020-06-09,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-11,2021-04-30,332,325,True,False
+101,2020-06-08,2020-06,True,basic monthly,2020-06-15,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-20,2021-04-30,326,319,True,False
+102,2020-06-02,2020-06,True,basic monthly,2020-06-09,7,pro monthly,churned,True,2020-12-01,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-12-01,2021-04-30,182,175,False,False
+103,2020-07-24,2020-07,True,pro monthly,2020-07-31,7,pro monthly,churned,True,2020-10-28,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-10-28,2021-04-30,96,89,False,False
+104,2020-03-29,2020-03,True,pro monthly,2020-04-05,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-05,2021-04-30,397,390,True,False
+105,2020-09-20,2020-09,True,basic monthly,2020-09-27,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-22,2021-04-30,222,215,True,False
+106,2020-08-02,2020-08,True,pro annual,2020-08-09,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-08-09,2021-04-30,271,264,True,False
+107,2020-01-12,2020-01,True,basic monthly,2020-01-19,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-03-23,2021-04-30,474,467,True,False
+108,2020-09-10,2020-09,False,,,,,churned,True,2020-09-17,trial,2,0,False,trial > churn,churn,2020-09-17,2021-04-30,7,,False,False
+109,2020-10-12,2020-10,True,basic monthly,2020-10-19,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-20,2021-04-30,200,193,True,False
+110,2020-05-12,2020-05,True,pro monthly,2020-05-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-19,2021-04-30,353,346,True,False
+111,2020-08-25,2020-08,True,pro annual,2020-09-01,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-09-01,2021-04-30,248,241,True,False
+112,2020-10-20,2020-10,True,pro monthly,2020-10-27,7,pro monthly,churned,True,2021-01-08,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-01-08,2021-04-30,80,73,False,False
+113,2020-04-10,2020-04,True,basic monthly,2020-04-17,7,pro monthly,churned,True,2020-11-01,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-11-01,2021-04-30,205,198,False,False
+114,2020-06-05,2020-06,True,basic monthly,2020-06-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-13,2021-04-30,329,322,True,False
+115,2020-08-14,2020-08,True,pro annual,2020-08-21,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-08-21,2021-04-30,259,252,True,False
+116,2020-05-23,2020-05,True,basic monthly,2020-05-30,7,basic monthly,churned,True,2020-09-15,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-15,2021-04-30,115,108,False,False
+117,2020-05-22,2020-05,True,basic monthly,2020-05-29,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-11-14,2021-04-30,343,336,True,False
+118,2020-01-24,2020-01,True,basic monthly,2020-01-31,7,basic monthly,churned,True,2020-06-30,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-06-30,2021-04-30,158,151,False,False
+119,2020-11-09,2020-11,True,basic monthly,2020-11-16,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-02-27,2021-04-30,172,165,True,False
+120,2020-05-14,2020-05,True,pro monthly,2020-05-21,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-21,2021-04-30,351,344,True,False
+121,2020-06-18,2020-06,True,basic monthly,2020-06-25,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-07,2021-04-30,316,309,True,False
+122,2020-03-30,2020-03,False,,,,,churned,True,2020-04-06,trial,2,0,False,trial > churn,churn,2020-04-06,2021-04-30,7,,False,False
+123,2020-03-12,2020-03,True,basic monthly,2020-03-19,7,basic monthly,churned,True,2020-05-15,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-05-15,2021-04-30,64,57,False,False
+124,2020-03-17,2020-03,True,basic monthly,2020-03-24,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-06-20,2021-04-30,409,402,True,False
+125,2020-08-07,2020-08,True,basic monthly,2020-08-14,7,basic monthly,churned,True,2020-12-03,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-03,2021-04-30,118,111,False,False
+126,2020-09-15,2020-09,True,basic monthly,2020-09-22,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-22,2021-04-30,227,220,True,False
+127,2020-05-23,2020-05,True,pro monthly,2020-05-30,7,pro monthly,churned,True,2020-08-11,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-08-11,2021-04-30,80,73,False,False
+128,2020-01-19,2020-01,False,,,,,churned,True,2020-01-26,trial,2,0,False,trial > churn,churn,2020-01-26,2021-04-30,7,,False,False
+129,2020-07-23,2020-07,True,basic monthly,2020-07-30,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-30,2021-04-30,281,274,True,False
+130,2020-09-22,2020-09,True,pro monthly,2020-09-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-29,2021-04-30,220,213,True,False
+131,2020-10-16,2020-10,True,pro annual,2020-10-23,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-10-23,2021-04-30,196,189,True,False
+132,2020-10-18,2020-10,True,basic monthly,2020-10-25,7,basic monthly,churned,True,2021-01-07,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-07,2021-04-30,81,74,False,False
+133,2020-03-29,2020-03,True,basic monthly,2020-04-05,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-11,2021-04-30,397,390,True,False
+134,2020-07-02,2020-07,True,pro monthly,2020-07-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-09,2021-04-30,302,295,True,False
+135,2020-12-23,2020-12,False,,,,,churned,True,2020-12-30,trial,2,0,False,trial > churn,churn,2020-12-30,2021-04-30,7,,False,False
+136,2020-08-16,2020-08,False,,,,,churned,True,2020-08-23,trial,2,0,False,trial > churn,churn,2020-08-23,2021-04-30,7,,False,False
+137,2020-08-12,2020-08,True,pro monthly,2020-08-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-19,2021-04-30,261,254,True,False
+138,2020-10-26,2020-10,True,basic monthly,2020-11-02,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-01-25,2021-04-30,186,179,True,False
+139,2020-07-17,2020-07,True,pro monthly,2020-07-24,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-24,2021-04-30,287,280,True,False
+140,2020-12-25,2020-12,True,basic monthly,2021-01-01,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2021-01-01,2021-04-30,126,119,True,False
+141,2020-04-19,2020-04,True,basic monthly,2020-04-26,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-18,2021-04-30,376,369,True,False
+142,2020-05-30,2020-05,True,pro monthly,2020-06-06,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-06-06,2021-04-30,335,328,True,False
+143,2020-12-20,2020-12,True,basic monthly,2020-12-27,7,basic monthly,churned,True,2021-03-03,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-03,2021-04-30,73,66,False,False
+144,2020-09-04,2020-09,True,basic monthly,2020-09-11,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-09,2021-04-30,238,231,True,False
+145,2020-01-17,2020-01,True,pro monthly,2020-01-24,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-24,2021-04-30,469,462,True,False
+146,2020-07-05,2020-07,True,basic monthly,2020-07-12,7,pro monthly,churned,True,2020-12-18,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-12-18,2021-04-30,166,159,False,False
+147,2020-12-18,2020-12,True,pro monthly,2020-12-25,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-25,2021-04-30,133,126,True,False
+148,2020-03-12,2020-03,True,pro monthly,2020-03-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-19,2021-04-30,414,407,True,False
+149,2020-12-19,2020-12,True,basic monthly,2020-12-26,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-26,2021-04-30,132,125,True,False
+150,2020-02-05,2020-02,True,pro monthly,2020-02-12,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-12,2021-04-30,450,443,True,False
+151,2020-09-07,2020-09,True,basic monthly,2020-09-14,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-17,2021-04-30,235,228,True,False
+152,2020-10-14,2020-10,True,basic monthly,2020-10-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-08,2021-04-30,198,191,True,False
+153,2020-11-28,2020-11,True,pro monthly,2020-12-05,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-05,2021-04-30,153,146,True,False
+154,2020-03-18,2020-03,True,basic monthly,2020-03-25,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-01,2021-04-30,408,401,True,False
+155,2020-09-13,2020-09,False,,,,,churned,True,2020-09-20,trial,2,0,False,trial > churn,churn,2020-09-20,2021-04-30,7,,False,False
+156,2020-01-19,2020-01,False,,,,,churned,True,2020-01-26,trial,2,0,False,trial > churn,churn,2020-01-26,2021-04-30,7,,False,False
+157,2020-04-23,2020-04,True,basic monthly,2020-04-30,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-05-11,2021-04-30,372,365,True,False
+158,2020-03-02,2020-03,True,basic monthly,2020-03-09,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-09,2021-04-30,424,417,True,False
+159,2020-09-09,2020-09,True,pro monthly,2020-09-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-16,2021-04-30,233,226,True,False
+160,2020-11-16,2020-11,True,basic monthly,2020-11-23,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-23,2021-04-30,165,158,True,False
+161,2020-12-17,2020-12,False,,,,,churned,True,2020-12-24,trial,2,0,False,trial > churn,churn,2020-12-24,2021-04-30,7,,False,False
+162,2020-02-23,2020-02,False,,,,,churned,True,2020-03-01,trial,2,0,False,trial > churn,churn,2020-03-01,2021-04-30,7,,False,False
+163,2020-12-23,2020-12,True,pro monthly,2020-12-30,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-30,2021-04-30,128,121,True,False
+164,2020-11-27,2020-11,True,pro monthly,2020-12-04,7,pro monthly,churned,True,2020-12-24,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-12-24,2021-04-30,27,20,False,False
+165,2020-10-05,2020-10,True,basic monthly,2020-10-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-11-08,2021-04-30,207,200,True,False
+166,2020-07-03,2020-07,True,basic monthly,2020-07-10,7,basic monthly,churned,True,2020-09-22,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-22,2021-04-30,81,74,False,False
+167,2020-05-07,2020-05,True,pro monthly,2020-05-14,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-14,2021-04-30,358,351,True,False
+168,2020-03-07,2020-03,True,pro monthly,2020-03-14,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-14,2021-04-30,419,412,True,False
+169,2020-04-07,2020-04,False,,,,,churned,True,2020-04-14,trial,2,0,False,trial > churn,churn,2020-04-14,2021-04-30,7,,False,False
+170,2020-04-18,2020-04,True,basic monthly,2020-04-25,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-12-28,2021-04-30,377,370,True,False
+171,2020-11-28,2020-11,True,pro monthly,2020-12-05,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-05,2021-04-30,153,146,True,False
+172,2020-12-05,2020-12,True,basic monthly,2020-12-12,7,basic monthly,churned,True,2021-02-15,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-02-15,2021-04-30,72,65,False,False
+173,2020-06-24,2020-06,True,pro monthly,2020-07-01,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-01,2021-04-30,310,303,True,False
+174,2020-02-01,2020-02,True,basic monthly,2020-02-08,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-10,2021-04-30,454,447,True,False
+175,2020-08-15,2020-08,True,pro monthly,2020-08-22,7,pro monthly,churned,True,2020-11-23,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-23,2021-04-30,100,93,False,False
+176,2020-09-13,2020-09,True,basic monthly,2020-09-20,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-20,2021-04-30,229,222,True,False
+177,2020-05-01,2020-05,True,pro monthly,2020-05-08,7,pro monthly,churned,True,2020-09-09,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-09-09,2021-04-30,131,124,False,False
+178,2020-02-22,2020-02,False,,,,,churned,True,2020-02-29,trial,2,0,False,trial > churn,churn,2020-02-29,2021-04-30,7,,False,False
+179,2020-06-13,2020-06,True,pro monthly,2020-06-20,7,pro monthly,churned,True,2020-09-25,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-09-25,2021-04-30,104,97,False,False
+180,2020-10-31,2020-10,True,basic monthly,2020-11-07,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-17,2021-04-30,181,174,True,False
+181,2020-02-11,2020-02,True,pro monthly,2020-02-18,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-18,2021-04-30,444,437,True,False
+182,2020-09-26,2020-09,True,basic monthly,2020-10-03,7,basic monthly,churned,True,2021-02-25,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-02-25,2021-04-30,152,145,False,False
+183,2020-09-25,2020-09,True,pro monthly,2020-10-02,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-02,2021-04-30,217,210,True,False
+184,2020-02-16,2020-02,True,basic monthly,2020-02-23,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-23,2021-04-30,439,432,True,False
+185,2020-12-03,2020-12,True,pro monthly,2020-12-10,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-10,2021-04-30,148,141,True,False
+186,2020-09-30,2020-09,True,pro monthly,2020-10-07,7,pro monthly,churned,True,2021-02-05,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-02-05,2021-04-30,128,121,False,False
+187,2020-09-19,2020-09,True,pro annual,2020-09-26,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-09-26,2021-04-30,223,216,True,False
+188,2020-02-22,2020-02,True,basic monthly,2020-02-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-29,2021-04-30,433,426,True,False
+189,2020-12-09,2020-12,True,pro monthly,2020-12-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-16,2021-04-30,142,135,True,False
+190,2020-04-20,2020-04,True,basic monthly,2020-04-27,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-04,2021-04-30,375,368,True,False
+191,2020-01-02,2020-01,True,pro monthly,2020-01-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-09,2021-04-30,484,477,True,False
+192,2020-07-29,2020-07,True,basic monthly,2020-08-05,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-05,2021-04-30,275,268,True,False
+193,2020-05-19,2020-05,True,basic monthly,2020-05-26,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-10-21,2021-04-30,346,339,True,False
+194,2020-11-20,2020-11,True,pro monthly,2020-11-27,7,pro monthly,churned,True,2021-01-13,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-01-13,2021-04-30,54,47,False,False
+195,2020-02-08,2020-02,True,pro monthly,2020-02-15,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-06-15,2021-04-30,447,440,True,False
+196,2020-03-09,2020-03,True,pro monthly,2020-03-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-16,2021-04-30,417,410,True,False
+197,2020-05-17,2020-05,True,pro monthly,2020-05-24,7,pro monthly,churned,True,2020-07-01,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-07-01,2021-04-30,45,38,False,False
+198,2020-11-11,2020-11,True,basic monthly,2020-11-18,7,basic monthly,churned,True,2021-03-16,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-16,2021-04-30,125,118,False,False
+199,2020-12-09,2020-12,True,pro monthly,2020-12-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-16,2021-04-30,142,135,True,False
+200,2020-04-05,2020-04,True,pro monthly,2020-04-12,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-12,2021-04-30,390,383,True,False
+201,2020-03-07,2020-03,True,basic monthly,2020-03-14,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-14,2021-04-30,419,412,True,False
+202,2020-07-01,2020-07,True,pro monthly,2020-07-08,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-08,2021-04-30,303,296,True,False
+203,2020-08-24,2020-08,True,basic monthly,2020-08-31,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-19,2021-04-30,249,242,True,False
+204,2020-06-10,2020-06,True,basic monthly,2020-06-17,7,basic monthly,churned,True,2020-10-05,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-10-05,2021-04-30,117,110,False,False
+205,2020-11-02,2020-11,True,basic monthly,2020-11-09,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-03-13,2021-04-30,179,172,True,False
+206,2020-03-17,2020-03,True,basic monthly,2020-03-24,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-02,2021-04-30,409,402,True,False
+207,2020-05-20,2020-05,True,basic monthly,2020-05-27,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-27,2021-04-30,345,338,True,False
+208,2020-06-12,2020-06,True,pro monthly,2020-06-19,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-19,2021-04-30,322,315,True,False
+209,2020-08-13,2020-08,True,pro monthly,2020-08-20,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-20,2021-04-30,260,253,True,False
+210,2020-02-09,2020-02,True,pro monthly,2020-02-16,7,pro monthly,churned,True,2020-06-21,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-06-21,2021-04-30,133,126,False,False
+211,2020-10-10,2020-10,True,basic monthly,2020-10-17,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-18,2021-04-30,202,195,True,False
+212,2020-03-02,2020-03,True,basic monthly,2020-03-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-09,2021-04-30,424,417,True,False
+213,2020-08-07,2020-08,True,pro annual,2020-08-14,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-08-14,2021-04-30,266,259,True,False
+214,2020-02-03,2020-02,True,basic monthly,2020-02-10,7,pro monthly,churned,True,2020-08-21,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-08-21,2021-04-30,200,193,False,False
+215,2020-04-16,2020-04,True,pro monthly,2020-04-23,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-07-23,2021-04-30,379,372,True,False
+216,2020-08-26,2020-08,True,pro monthly,2020-09-02,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-02,2021-04-30,247,240,True,False
+217,2020-12-06,2020-12,True,pro monthly,2020-12-13,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-13,2021-04-30,145,138,True,False
+218,2020-12-02,2020-12,True,basic monthly,2020-12-09,7,basic monthly,churned,True,2021-04-24,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-04-24,2021-04-30,143,136,False,False
+219,2020-10-22,2020-10,True,pro monthly,2020-10-29,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-04-29,2021-04-30,190,183,True,False
+220,2020-06-08,2020-06,False,,,,,churned,True,2020-06-15,trial,2,0,False,trial > churn,churn,2020-06-15,2021-04-30,7,,False,False
+221,2020-09-27,2020-09,True,basic monthly,2020-10-04,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-03-29,2021-04-30,215,208,True,False
+222,2020-08-29,2020-08,True,basic monthly,2020-09-05,7,basic monthly,churned,True,2020-12-25,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-25,2021-04-30,118,111,False,False
+223,2020-08-01,2020-08,True,basic monthly,2020-08-08,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-31,2021-04-30,272,265,True,False
+224,2020-01-26,2020-01,True,pro monthly,2020-02-02,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-05-02,2021-04-30,460,453,True,False
+225,2020-12-27,2020-12,False,,,,,churned,True,2021-01-03,trial,2,0,False,trial > churn,churn,2021-01-03,2021-04-30,7,,False,False
+226,2020-11-01,2020-11,True,basic monthly,2020-11-08,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-24,2021-04-30,180,173,True,False
+227,2020-03-02,2020-03,True,pro monthly,2020-03-09,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-09,2021-04-30,424,417,True,False
+228,2020-10-02,2020-10,True,pro monthly,2020-10-09,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-09,2021-04-30,210,203,True,False
+229,2020-07-24,2020-07,True,basic monthly,2020-07-31,7,basic monthly,churned,True,2021-01-24,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-24,2021-04-30,184,177,False,False
+230,2020-04-08,2020-04,False,,,,,churned,True,2020-04-15,trial,2,0,False,trial > churn,churn,2020-04-15,2021-04-30,7,,False,False
+231,2020-05-13,2020-05,True,basic monthly,2020-05-20,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-09,2021-04-30,352,345,True,False
+232,2020-08-26,2020-08,True,basic monthly,2020-09-02,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-03,2021-04-30,247,240,True,False
+233,2020-07-31,2020-07,True,basic monthly,2020-08-07,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-29,2021-04-30,273,266,True,False
+234,2020-01-19,2020-01,True,pro monthly,2020-01-26,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-26,2021-04-30,467,460,True,False
+235,2020-08-20,2020-08,True,basic monthly,2020-08-27,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-17,2021-04-30,253,246,True,False
+236,2020-06-22,2020-06,True,basic monthly,2020-06-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-29,2021-04-30,312,305,True,False
+237,2020-11-07,2020-11,True,basic monthly,2020-11-14,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-24,2021-04-30,174,167,True,False
+238,2020-10-27,2020-10,True,basic monthly,2020-11-03,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-23,2021-04-30,185,178,True,False
+239,2020-08-15,2020-08,True,basic monthly,2020-08-22,7,basic monthly,churned,True,2020-10-20,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-10-20,2021-04-30,66,59,False,False
+240,2020-01-14,2020-01,True,basic monthly,2020-01-21,7,pro annual,churned,True,2021-03-03,pro annual,4,1,True,trial > basic monthly > pro annual > churn,churn,2021-03-03,2021-04-30,414,407,False,False
+241,2020-10-03,2020-10,True,basic monthly,2020-10-10,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-11-11,2021-04-30,209,202,True,False
+242,2020-10-19,2020-10,True,pro monthly,2020-10-26,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-26,2021-04-30,193,186,True,False
+243,2020-09-04,2020-09,True,basic monthly,2020-09-11,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-11,2021-04-30,238,231,True,False
+244,2020-03-04,2020-03,True,pro monthly,2020-03-11,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-11,2021-04-30,422,415,True,False
+245,2020-03-28,2020-03,False,,,,,churned,True,2020-04-04,trial,2,0,False,trial > churn,churn,2020-04-04,2021-04-30,7,,False,False
+246,2020-01-27,2020-01,True,basic monthly,2020-02-03,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-03,2021-04-30,459,452,True,False
+247,2020-07-07,2020-07,True,basic monthly,2020-07-14,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-20,2021-04-30,297,290,True,False
+248,2020-11-09,2020-11,True,basic monthly,2020-11-16,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-16,2021-04-30,172,165,True,False
+249,2020-02-18,2020-02,True,pro monthly,2020-02-25,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-25,2021-04-30,437,430,True,False
+250,2020-06-15,2020-06,True,pro monthly,2020-06-22,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-22,2021-04-30,319,312,True,False
+251,2020-03-09,2020-03,False,,,,,churned,True,2020-03-16,trial,2,0,False,trial > churn,churn,2020-03-16,2021-04-30,7,,False,False
+252,2020-11-08,2020-11,True,basic monthly,2020-11-15,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-23,2021-04-30,173,166,True,False
+253,2020-05-15,2020-05,True,pro monthly,2020-05-22,7,pro monthly,churned,True,2020-10-12,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-10-12,2021-04-30,150,143,False,False
+254,2020-07-23,2020-07,False,,,,,churned,True,2020-07-30,trial,2,0,False,trial > churn,churn,2020-07-30,2021-04-30,7,,False,False
+255,2020-03-29,2020-03,True,pro monthly,2020-04-05,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-10-05,2021-04-30,397,390,True,False
+256,2020-07-13,2020-07,True,basic monthly,2020-07-20,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-23,2021-04-30,291,284,True,False
+257,2020-01-15,2020-01,True,pro monthly,2020-01-22,7,pro annual,churned,True,2021-04-22,pro annual,4,1,True,trial > pro monthly > pro annual > churn,churn,2021-04-22,2021-04-30,463,456,False,False
+258,2020-06-19,2020-06,True,basic monthly,2020-06-26,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-06,2021-04-30,315,308,True,False
+259,2020-11-09,2020-11,True,basic monthly,2020-11-16,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-13,2021-04-30,172,165,True,False
+260,2020-09-21,2020-09,True,pro monthly,2020-09-28,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-28,2021-04-30,221,214,True,False
+261,2020-03-12,2020-03,True,pro monthly,2020-03-19,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-05-19,2021-04-30,414,407,True,False
+262,2020-05-14,2020-05,True,basic monthly,2020-05-21,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-21,2021-04-30,351,344,True,False
+263,2020-07-10,2020-07,True,pro monthly,2020-07-17,7,pro monthly,churned,True,2020-07-20,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-07-20,2021-04-30,10,3,False,False
+264,2020-09-12,2020-09,True,pro monthly,2020-09-19,7,pro monthly,churned,True,2020-12-07,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-12-07,2021-04-30,86,79,False,False
+265,2020-06-13,2020-06,True,basic monthly,2020-06-20,7,basic monthly,churned,True,2020-07-14,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-14,2021-04-30,31,24,False,False
+266,2020-07-20,2020-07,True,basic monthly,2020-07-27,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-04,2021-04-30,284,277,True,False
+267,2020-09-19,2020-09,True,basic monthly,2020-09-26,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-10,2021-04-30,223,216,True,False
+268,2020-10-07,2020-10,True,basic monthly,2020-10-14,7,basic monthly,churned,True,2020-11-07,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-07,2021-04-30,31,24,False,False
+269,2020-07-29,2020-07,True,basic monthly,2020-08-05,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-06,2021-04-30,275,268,True,False
+270,2020-07-05,2020-07,True,pro monthly,2020-07-12,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-01-12,2021-04-30,299,292,True,False
+271,2020-08-29,2020-08,True,pro monthly,2020-09-05,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-05,2021-04-30,244,237,True,False
+272,2020-12-19,2020-12,True,basic monthly,2020-12-26,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-17,2021-04-30,132,125,True,False
+273,2020-02-14,2020-02,True,basic monthly,2020-02-21,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-21,2021-04-30,441,434,True,False
+274,2020-03-01,2020-03,True,basic monthly,2020-03-08,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-08,2021-04-30,425,418,True,False
+275,2020-04-27,2020-04,True,basic monthly,2020-05-04,7,basic monthly,churned,True,2020-09-09,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-09,2021-04-30,135,128,False,False
+276,2020-12-25,2020-12,True,pro monthly,2021-01-01,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-03-01,2021-04-30,126,119,True,False
+277,2020-08-06,2020-08,True,basic monthly,2020-08-13,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-13,2021-04-30,267,260,True,False
+278,2020-08-01,2020-08,True,pro monthly,2020-08-08,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-08,2021-04-30,272,265,True,False
+279,2020-03-31,2020-03,True,pro annual,2020-04-07,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-04-07,2021-04-30,395,388,True,True
+280,2020-06-17,2020-06,True,basic monthly,2020-06-24,7,pro monthly,churned,True,2021-02-23,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-02-23,2021-04-30,251,244,False,False
+281,2020-01-01,2020-01,True,basic monthly,2020-01-08,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-08,2021-04-30,485,478,True,False
+282,2020-06-21,2020-06,True,pro monthly,2020-06-28,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-06-28,2021-04-30,313,306,True,False
+283,2020-06-11,2020-06,True,basic monthly,2020-06-18,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-12-11,2021-04-30,323,316,True,False
+284,2020-07-27,2020-07,True,pro monthly,2020-08-03,7,pro monthly,churned,True,2020-11-18,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-18,2021-04-30,114,107,False,False
+285,2020-07-06,2020-07,False,,,,,churned,True,2020-07-13,trial,2,0,False,trial > churn,churn,2020-07-13,2021-04-30,7,,False,False
+286,2020-03-23,2020-03,True,pro monthly,2020-03-30,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-30,2021-04-30,403,396,True,False
+287,2020-08-23,2020-08,True,basic monthly,2020-08-30,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-09,2021-04-30,250,243,True,False
+288,2020-11-28,2020-11,True,basic monthly,2020-12-05,7,basic monthly,churned,True,2020-12-06,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-06,2021-04-30,8,1,False,False
+289,2020-01-08,2020-01,True,pro monthly,2020-01-15,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-15,2021-04-30,478,471,True,False
+290,2020-01-10,2020-01,True,basic monthly,2020-01-17,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-17,2021-04-30,476,469,True,False
+291,2020-03-03,2020-03,True,basic monthly,2020-03-10,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-16,2021-04-30,423,416,True,False
+292,2020-08-14,2020-08,True,basic monthly,2020-08-21,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-18,2021-04-30,259,252,True,False
+293,2020-10-30,2020-10,True,basic monthly,2020-11-06,7,pro monthly,churned,True,2021-03-18,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-03-18,2021-04-30,139,132,False,False
+294,2020-01-19,2020-01,False,,,,,churned,True,2020-01-26,trial,2,0,False,trial > churn,churn,2020-01-26,2021-04-30,7,,False,False
+295,2020-06-01,2020-06,True,basic monthly,2020-06-08,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-17,2021-04-30,333,326,True,False
+296,2020-10-17,2020-10,False,,,,,churned,True,2020-10-24,trial,2,0,False,trial > churn,churn,2020-10-24,2021-04-30,7,,False,False
+297,2020-08-13,2020-08,True,pro monthly,2020-08-20,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-12-20,2021-04-30,260,253,True,False
+298,2020-10-26,2020-10,True,basic monthly,2020-11-02,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-13,2021-04-30,186,179,True,False
+299,2020-09-13,2020-09,True,basic monthly,2020-09-20,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-01-28,2021-04-30,229,222,True,False
+300,2020-04-06,2020-04,True,basic monthly,2020-04-13,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-04,2021-04-30,389,382,True,False
+301,2020-05-07,2020-05,True,basic monthly,2020-05-14,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-01-30,2021-04-30,358,351,True,False
+302,2020-01-09,2020-01,True,pro monthly,2020-01-16,7,pro monthly,churned,True,2020-01-22,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-01-22,2021-04-30,13,6,False,False
+303,2020-02-13,2020-02,True,basic monthly,2020-02-20,7,basic monthly,churned,True,2020-06-15,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-06-15,2021-04-30,123,116,False,False
+304,2020-12-28,2020-12,True,basic monthly,2021-01-04,7,basic monthly,churned,True,2021-01-27,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-27,2021-04-30,30,23,False,False
+305,2020-11-16,2020-11,True,basic monthly,2020-11-23,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-23,2021-04-30,165,158,True,False
+306,2020-09-09,2020-09,True,pro monthly,2020-09-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-16,2021-04-30,233,226,True,False
+307,2020-04-01,2020-04,True,basic monthly,2020-04-08,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-10-27,2021-04-30,394,387,True,False
+308,2020-04-12,2020-04,True,basic monthly,2020-04-19,7,basic monthly,churned,True,2020-07-22,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-22,2021-04-30,101,94,False,False
+309,2020-12-08,2020-12,True,pro monthly,2020-12-15,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-15,2021-04-30,143,136,True,False
+310,2020-08-01,2020-08,True,basic monthly,2020-08-08,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-05,2021-04-30,272,265,True,False
+311,2020-12-03,2020-12,True,basic monthly,2020-12-10,7,basic monthly,churned,True,2021-03-01,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-01,2021-04-30,88,81,False,False
+312,2020-01-09,2020-01,True,basic monthly,2020-01-16,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-04-19,2021-04-30,477,470,True,False
+313,2020-01-15,2020-01,True,basic monthly,2020-01-22,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-06-29,2021-04-30,471,464,True,False
+314,2020-11-11,2020-11,False,,,,,churned,True,2020-11-18,trial,2,0,False,trial > churn,churn,2020-11-18,2021-04-30,7,,False,False
+315,2020-12-13,2020-12,True,basic monthly,2020-12-20,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-21,2021-04-30,138,131,True,False
+316,2020-03-31,2020-03,True,pro monthly,2020-04-07,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-07,2021-04-30,395,388,True,False
+317,2020-10-11,2020-10,False,,,,,churned,True,2020-10-18,trial,2,0,False,trial > churn,churn,2020-10-18,2021-04-30,7,,False,False
+318,2020-06-20,2020-06,True,basic monthly,2020-06-27,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-11-30,2021-04-30,314,307,True,False
+319,2020-10-25,2020-10,True,pro monthly,2020-11-01,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-11-01,2021-04-30,187,180,True,False
+320,2020-09-27,2020-09,True,pro monthly,2020-10-04,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-04-04,2021-04-30,215,208,True,False
+321,2020-03-06,2020-03,True,pro monthly,2020-03-13,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-13,2021-04-30,420,413,True,False
+322,2020-12-19,2020-12,True,pro annual,2020-12-26,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-12-26,2021-04-30,132,125,True,False
+323,2020-10-20,2020-10,True,basic monthly,2020-10-27,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-04-14,2021-04-30,192,185,True,False
+324,2020-05-07,2020-05,True,basic monthly,2020-05-14,7,basic monthly,churned,True,2020-07-26,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-26,2021-04-30,80,73,False,False
+325,2020-05-18,2020-05,False,,,,,churned,True,2020-05-25,trial,2,0,False,trial > churn,churn,2020-05-25,2021-04-30,7,,False,False
+326,2020-11-20,2020-11,True,pro annual,2020-11-27,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-11-27,2021-04-30,161,154,True,False
+327,2020-04-14,2020-04,True,basic monthly,2020-04-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-17,2021-04-30,381,374,True,False
+328,2020-10-06,2020-10,True,basic monthly,2020-10-13,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-02,2021-04-30,206,199,True,False
+329,2020-04-26,2020-04,False,,,,,churned,True,2020-05-03,trial,2,0,False,trial > churn,churn,2020-05-03,2021-04-30,7,,False,False
+330,2020-01-20,2020-01,False,,,,,churned,True,2020-01-27,trial,2,0,False,trial > churn,churn,2020-01-27,2021-04-30,7,,False,False
+331,2020-04-12,2020-04,True,basic monthly,2020-04-19,7,basic monthly,churned,True,2020-09-14,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-14,2021-04-30,155,148,False,False
+332,2020-10-11,2020-10,True,basic monthly,2020-10-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-17,2021-04-30,201,194,True,False
+333,2020-01-19,2020-01,True,pro monthly,2020-01-26,7,pro monthly,churned,True,2020-06-15,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-06-15,2021-04-30,148,141,False,False
+334,2020-08-07,2020-08,True,basic monthly,2020-08-14,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-09,2021-04-30,266,259,True,False
+335,2020-09-25,2020-09,True,basic monthly,2020-10-02,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-02,2021-04-30,217,210,True,False
+336,2020-06-23,2020-06,True,basic monthly,2020-06-30,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-22,2021-04-30,311,304,True,False
+337,2020-11-16,2020-11,True,basic monthly,2020-11-23,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-23,2021-04-30,165,158,True,False
+338,2020-12-12,2020-12,True,basic monthly,2020-12-19,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-19,2021-04-30,139,132,True,False
+339,2020-05-06,2020-05,True,basic monthly,2020-05-13,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-13,2021-04-30,359,352,True,False
+340,2020-06-27,2020-06,True,basic monthly,2020-07-04,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-19,2021-04-30,307,300,True,False
+341,2020-10-17,2020-10,True,basic monthly,2020-10-24,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-30,2021-04-30,195,188,True,False
+342,2020-06-21,2020-06,True,basic monthly,2020-06-28,7,basic monthly,churned,True,2020-08-19,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-08-19,2021-04-30,59,52,False,False
+343,2020-02-02,2020-02,True,basic monthly,2020-02-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-09,2021-04-30,453,446,True,False
+344,2020-09-22,2020-09,True,pro monthly,2020-09-29,7,pro monthly,churned,True,2021-02-15,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-02-15,2021-04-30,146,139,False,False
+345,2020-04-17,2020-04,True,basic monthly,2020-04-24,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-08-07,2021-04-30,378,371,True,False
+346,2020-11-13,2020-11,True,pro monthly,2020-11-20,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-04-20,2021-04-30,168,161,True,False
+347,2020-05-30,2020-05,True,basic monthly,2020-06-06,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-14,2021-04-30,335,328,True,False
+348,2020-09-14,2020-09,True,basic monthly,2020-09-21,7,basic monthly,churned,True,2020-09-28,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-28,2021-04-30,14,7,False,False
+349,2020-06-16,2020-06,True,basic monthly,2020-06-23,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-22,2021-04-30,318,311,True,False
+350,2020-04-25,2020-04,True,basic monthly,2020-05-02,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-02,2021-04-30,370,363,True,False
+351,2020-05-24,2020-05,True,basic monthly,2020-05-31,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-06,2021-04-30,341,334,True,False
+352,2020-09-21,2020-09,True,basic monthly,2020-09-28,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-06,2021-04-30,221,214,True,False
+353,2020-11-29,2020-11,True,pro annual,2020-12-06,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-12-06,2021-04-30,152,145,True,False
+354,2020-03-19,2020-03,False,,,,,churned,True,2020-03-26,trial,2,0,False,trial > churn,churn,2020-03-26,2021-04-30,7,,False,False
+355,2020-10-27,2020-10,True,pro monthly,2020-11-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-11-03,2021-04-30,185,178,True,False
+356,2020-04-09,2020-04,True,basic monthly,2020-04-16,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-02,2021-04-30,386,379,True,False
+357,2020-10-07,2020-10,True,pro monthly,2020-10-14,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-01-14,2021-04-30,205,198,True,False
+358,2020-02-25,2020-02,True,pro monthly,2020-03-03,7,pro monthly,churned,True,2020-04-02,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-04-02,2021-04-30,37,30,False,False
+359,2020-08-14,2020-08,True,basic monthly,2020-08-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-11,2021-04-30,259,252,True,False
+360,2020-08-27,2020-08,True,pro monthly,2020-09-03,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-03,2021-04-30,246,239,True,False
+361,2020-10-10,2020-10,False,,,,,churned,True,2020-10-17,trial,2,0,False,trial > churn,churn,2020-10-17,2021-04-30,7,,False,False
+362,2020-06-05,2020-06,True,basic monthly,2020-06-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-21,2021-04-30,329,322,True,False
+363,2020-05-06,2020-05,True,basic monthly,2020-05-13,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-10,2021-04-30,359,352,True,False
+364,2020-05-02,2020-05,True,pro monthly,2020-05-09,7,pro monthly,churned,True,2020-09-15,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-09-15,2021-04-30,136,129,False,False
+365,2020-06-09,2020-06,True,pro monthly,2020-06-16,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-12-16,2021-04-30,325,318,True,False
+366,2020-07-18,2020-07,True,basic monthly,2020-07-25,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-25,2021-04-30,286,279,True,False
+367,2020-02-25,2020-02,True,basic monthly,2020-03-03,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-01,2021-04-30,430,423,True,False
+368,2020-10-23,2020-10,True,basic monthly,2020-10-30,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-04-02,2021-04-30,189,182,True,False
+369,2020-09-11,2020-09,True,basic monthly,2020-09-18,7,basic monthly,churned,True,2020-11-09,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-09,2021-04-30,59,52,False,False
+370,2020-03-08,2020-03,True,basic monthly,2020-03-15,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-10-27,2021-04-30,418,411,True,False
+371,2020-05-06,2020-05,True,pro monthly,2020-05-13,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-13,2021-04-30,359,352,True,False
+372,2020-05-04,2020-05,True,basic monthly,2020-05-11,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-08,2021-04-30,361,354,True,False
+373,2020-10-20,2020-10,True,basic monthly,2020-10-27,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-03,2021-04-30,192,185,True,False
+374,2020-05-18,2020-05,True,basic monthly,2020-05-25,7,pro monthly,churned,True,2020-09-21,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-09-21,2021-04-30,126,119,False,False
+375,2020-01-01,2020-01,True,pro monthly,2020-01-08,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-07-08,2021-04-30,485,478,True,False
+376,2020-10-19,2020-10,True,pro monthly,2020-10-26,7,pro monthly,churned,True,2021-03-17,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-03-17,2021-04-30,149,142,False,False
+377,2020-02-11,2020-02,True,basic monthly,2020-02-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-03-17,2021-04-30,444,437,True,False
+378,2020-04-28,2020-04,True,pro monthly,2020-05-05,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-05,2021-04-30,367,360,True,False
+379,2020-02-05,2020-02,True,pro monthly,2020-02-12,7,pro monthly,churned,True,2020-05-05,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-05-05,2021-04-30,90,83,False,False
+380,2020-08-01,2020-08,True,basic monthly,2020-08-08,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-02-28,2021-04-30,272,265,True,False
+381,2020-07-21,2020-07,True,basic monthly,2020-07-28,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-22,2021-04-30,283,276,True,False
+382,2020-02-20,2020-02,True,basic monthly,2020-02-27,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-27,2021-04-30,435,428,True,False
+383,2020-01-30,2020-01,True,pro monthly,2020-02-06,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-06,2021-04-30,456,449,True,False
+384,2020-07-26,2020-07,True,pro monthly,2020-08-02,7,pro monthly,churned,True,2020-08-23,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-08-23,2021-04-30,28,21,False,False
+385,2020-07-25,2020-07,True,pro monthly,2020-08-01,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-01,2021-04-30,279,272,True,False
+386,2020-09-15,2020-09,True,basic monthly,2020-09-22,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-22,2021-04-30,227,220,True,False
+387,2020-02-17,2020-02,True,basic monthly,2020-02-24,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-24,2021-04-30,438,431,True,False
+388,2020-11-09,2020-11,False,,,,,churned,True,2020-11-16,trial,2,0,False,trial > churn,churn,2020-11-16,2021-04-30,7,,False,False
+389,2020-01-04,2020-01,True,basic monthly,2020-01-11,7,pro monthly,churned,True,2020-10-27,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-10-27,2021-04-30,297,290,False,False
+390,2020-12-11,2020-12,True,pro monthly,2020-12-18,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-18,2021-04-30,140,133,True,False
+391,2020-06-29,2020-06,True,pro monthly,2020-07-06,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-06,2021-04-30,305,298,True,False
+392,2020-05-31,2020-05,True,pro monthly,2020-06-07,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-06-07,2021-04-30,334,327,True,False
+393,2020-04-11,2020-04,True,basic monthly,2020-04-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-05,2021-04-30,384,377,True,False
+394,2020-08-17,2020-08,True,basic monthly,2020-08-24,7,basic monthly,churned,True,2021-01-24,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-24,2021-04-30,160,153,False,False
+395,2020-03-31,2020-03,True,pro annual,2020-04-07,7,pro annual,churned,True,2021-04-07,pro annual,3,0,False,trial > pro annual > churn,churn,2021-04-07,2021-04-30,372,365,False,False
+396,2020-09-25,2020-09,True,basic monthly,2020-10-02,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-02,2021-04-30,217,210,True,False
+397,2020-01-13,2020-01,True,pro monthly,2020-01-20,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-20,2021-04-30,473,466,True,False
+398,2020-07-17,2020-07,True,basic monthly,2020-07-24,7,pro monthly,churned,True,2021-02-27,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-02-27,2021-04-30,225,218,False,False
+399,2020-03-03,2020-03,True,basic monthly,2020-03-10,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-24,2021-04-30,423,416,True,False
+400,2020-04-27,2020-04,True,basic monthly,2020-05-04,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-04,2021-04-30,368,361,True,False
+401,2020-04-14,2020-04,True,pro monthly,2020-04-21,7,pro monthly,churned,True,2020-05-22,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-05-22,2021-04-30,38,31,False,False
+402,2020-06-17,2020-06,True,pro monthly,2020-06-24,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-10-24,2021-04-30,317,310,True,False
+403,2020-05-15,2020-05,True,pro monthly,2020-05-22,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-22,2021-04-30,350,343,True,False
+404,2020-03-29,2020-03,True,pro monthly,2020-04-05,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-05,2021-04-30,397,390,True,False
+405,2020-03-02,2020-03,False,,,,,churned,True,2020-03-09,trial,2,0,False,trial > churn,churn,2020-03-09,2021-04-30,7,,False,False
+406,2020-10-17,2020-10,True,pro monthly,2020-10-24,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-24,2021-04-30,195,188,True,False
+407,2020-11-03,2020-11,True,basic monthly,2020-11-10,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-04-12,2021-04-30,178,171,True,False
+408,2020-01-30,2020-01,True,pro monthly,2020-02-06,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-06,2021-04-30,456,449,True,False
+409,2020-09-02,2020-09,True,basic monthly,2020-09-09,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-29,2021-04-30,240,233,True,False
+410,2020-01-27,2020-01,True,basic monthly,2020-02-03,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-03,2021-04-30,459,452,True,False
+411,2020-03-16,2020-03,True,basic monthly,2020-03-23,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-15,2021-04-30,410,403,True,False
+412,2020-06-09,2020-06,True,basic monthly,2020-06-16,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-23,2021-04-30,325,318,True,False
+413,2020-08-27,2020-08,True,basic monthly,2020-09-03,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-21,2021-04-30,246,239,True,False
+414,2020-10-09,2020-10,True,pro monthly,2020-10-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-16,2021-04-30,203,196,True,False
+415,2020-10-30,2020-10,True,pro monthly,2020-11-06,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-06,2021-04-30,182,175,True,False
+416,2020-08-07,2020-08,True,pro monthly,2020-08-14,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-14,2021-04-30,266,259,True,False
+417,2020-01-28,2020-01,True,pro monthly,2020-02-04,7,pro monthly,churned,True,2020-03-02,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-03-02,2021-04-30,34,27,False,False
+418,2020-10-07,2020-10,True,basic monthly,2020-10-14,7,basic monthly,churned,True,2020-11-22,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-22,2021-04-30,46,39,False,False
+419,2020-03-17,2020-03,True,pro monthly,2020-03-24,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-24,2021-04-30,409,402,True,False
+420,2020-05-27,2020-05,True,basic monthly,2020-06-03,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-03,2021-04-30,338,331,True,False
+421,2020-03-23,2020-03,True,pro monthly,2020-03-30,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-30,2021-04-30,403,396,True,False
+422,2020-12-26,2020-12,True,pro monthly,2021-01-02,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2021-01-02,2021-04-30,125,118,True,False
+423,2020-10-06,2020-10,True,pro monthly,2020-10-13,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-13,2021-04-30,206,199,True,False
+424,2020-12-15,2020-12,True,basic monthly,2020-12-22,7,basic monthly,churned,True,2021-04-28,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-04-28,2021-04-30,134,127,False,False
+425,2020-04-04,2020-04,True,pro monthly,2020-04-11,7,pro monthly,churned,True,2020-05-25,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-05-25,2021-04-30,51,44,False,False
+426,2020-10-10,2020-10,True,basic monthly,2020-10-17,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-23,2021-04-30,202,195,True,False
+427,2020-05-31,2020-05,True,pro monthly,2020-06-07,7,pro monthly,churned,True,2020-06-23,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-06-23,2021-04-30,23,16,False,False
+428,2020-10-25,2020-10,False,,,,,churned,True,2020-11-01,trial,2,0,False,trial > churn,churn,2020-11-01,2021-04-30,7,,False,False
+429,2020-02-05,2020-02,True,pro monthly,2020-02-12,7,pro monthly,churned,True,2020-07-30,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-07-30,2021-04-30,176,169,False,False
+430,2020-03-13,2020-03,True,basic monthly,2020-03-20,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-05,2021-04-30,413,406,True,False
+431,2020-12-27,2020-12,True,basic monthly,2021-01-03,7,basic monthly,churned,True,2021-03-14,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-14,2021-04-30,77,70,False,False
+432,2020-03-19,2020-03,True,basic monthly,2020-03-26,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-05-22,2021-04-30,407,400,True,False
+433,2020-10-04,2020-10,True,basic monthly,2020-10-11,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-11,2021-04-30,208,201,True,False
+434,2020-11-08,2020-11,True,basic monthly,2020-11-15,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-02,2021-04-30,173,166,True,False
+435,2020-01-09,2020-01,True,pro monthly,2020-01-16,7,pro monthly,churned,True,2020-03-08,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-03-08,2021-04-30,59,52,False,False
+436,2020-12-27,2020-12,True,basic monthly,2021-01-03,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2021-01-03,2021-04-30,124,117,True,False
+437,2020-05-09,2020-05,False,,,,,churned,True,2020-05-16,trial,2,0,False,trial > churn,churn,2020-05-16,2021-04-30,7,,False,False
+438,2020-01-31,2020-01,True,basic monthly,2020-02-07,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-04-16,2021-04-30,455,448,True,False
+439,2020-01-09,2020-01,True,basic monthly,2020-01-16,7,basic monthly,churned,True,2020-05-04,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-05-04,2021-04-30,116,109,False,False
+440,2020-03-14,2020-03,True,pro monthly,2020-03-21,7,pro monthly,churned,True,2020-04-28,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-04-28,2021-04-30,45,38,False,False
+441,2020-09-27,2020-09,False,,,,,churned,True,2020-10-04,trial,2,0,False,trial > churn,churn,2020-10-04,2021-04-30,7,,False,False
+442,2020-01-28,2020-01,True,basic monthly,2020-02-04,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-03-11,2021-04-30,458,451,True,True
+443,2020-11-28,2020-11,True,pro monthly,2020-12-05,7,pro monthly,churned,True,2021-03-16,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-03-16,2021-04-30,108,101,False,False
+444,2020-10-14,2020-10,False,,,,,churned,True,2020-10-21,trial,2,0,False,trial > churn,churn,2020-10-21,2021-04-30,7,,False,False
+445,2020-02-13,2020-02,False,,,,,churned,True,2020-02-20,trial,2,0,False,trial > churn,churn,2020-02-20,2021-04-30,7,,False,False
+446,2020-02-20,2020-02,True,pro monthly,2020-02-27,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-27,2021-04-30,435,428,True,False
+447,2020-04-02,2020-04,False,,,,,churned,True,2020-04-09,trial,2,0,False,trial > churn,churn,2020-04-09,2021-04-30,7,,False,False
+448,2020-08-30,2020-08,True,basic monthly,2020-09-06,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-30,2021-04-30,243,236,True,False
+449,2020-01-06,2020-01,True,basic monthly,2020-01-13,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-07,2021-04-30,480,473,True,False
+450,2020-09-29,2020-09,True,basic monthly,2020-10-06,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-08,2021-04-30,213,206,True,False
+451,2020-08-31,2020-08,True,pro monthly,2020-09-07,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-07,2021-04-30,242,235,True,False
+452,2020-05-11,2020-05,True,basic monthly,2020-05-18,7,basic monthly,churned,True,2020-06-22,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-06-22,2021-04-30,42,35,False,False
+453,2020-02-15,2020-02,True,pro monthly,2020-02-22,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-22,2021-04-30,440,433,True,False
+454,2020-06-15,2020-06,True,pro monthly,2020-06-22,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-06-22,2021-04-30,319,312,True,False
+455,2020-08-13,2020-08,True,basic monthly,2020-08-20,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-20,2021-04-30,260,253,True,False
+456,2020-02-21,2020-02,False,,,,,churned,True,2020-02-28,trial,2,0,False,trial > churn,churn,2020-02-28,2021-04-30,7,,False,False
+457,2020-11-19,2020-11,True,basic monthly,2020-11-26,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-12,2021-04-30,162,155,True,False
+458,2020-04-25,2020-04,False,,,,,churned,True,2020-05-02,trial,2,0,False,trial > churn,churn,2020-05-02,2021-04-30,7,,False,False
+459,2020-12-07,2020-12,True,pro monthly,2020-12-14,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-03-14,2021-04-30,144,137,True,False
+460,2020-12-09,2020-12,True,basic monthly,2020-12-16,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-04-16,2021-04-30,142,135,True,False
+461,2020-02-21,2020-02,True,basic monthly,2020-02-28,7,basic monthly,churned,True,2020-07-30,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-30,2021-04-30,160,153,False,False
+462,2020-05-05,2020-05,True,basic monthly,2020-05-12,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-15,2021-04-30,360,353,True,False
+463,2020-11-27,2020-11,True,basic monthly,2020-12-04,7,pro monthly,churned,True,2021-04-24,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-04-24,2021-04-30,148,141,False,False
+464,2020-01-11,2020-01,True,basic monthly,2020-01-18,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-18,2021-04-30,475,468,True,False
+465,2020-10-24,2020-10,True,basic monthly,2020-10-31,7,basic monthly,churned,True,2021-01-03,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-03,2021-04-30,71,64,False,False
+466,2020-03-13,2020-03,False,,,,,churned,True,2020-03-20,trial,2,0,False,trial > churn,churn,2020-03-20,2021-04-30,7,,False,False
+467,2020-06-21,2020-06,False,,,,,churned,True,2020-06-28,trial,2,0,False,trial > churn,churn,2020-06-28,2021-04-30,7,,False,False
+468,2020-04-21,2020-04,True,basic monthly,2020-04-28,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-05-01,2021-04-30,374,367,True,False
+469,2020-06-17,2020-06,True,pro monthly,2020-06-24,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-24,2021-04-30,317,310,True,False
+470,2020-04-28,2020-04,True,pro monthly,2020-05-05,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-05,2021-04-30,367,360,True,False
+471,2020-01-31,2020-01,True,pro monthly,2020-02-07,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-07,2021-04-30,455,448,True,False
+472,2020-12-23,2020-12,True,pro monthly,2020-12-30,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-04-30,2021-04-30,128,121,True,False
+473,2020-03-18,2020-03,True,basic monthly,2020-03-25,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-04-17,2021-04-30,408,401,True,True
+474,2020-09-01,2020-09,True,pro monthly,2020-09-08,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-08,2021-04-30,241,234,True,False
+475,2020-07-24,2020-07,True,basic monthly,2020-07-31,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-17,2021-04-30,280,273,True,False
+476,2020-08-22,2020-08,True,pro monthly,2020-08-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-29,2021-04-30,251,244,True,False
+477,2020-01-28,2020-01,False,,,,,churned,True,2020-02-04,trial,2,0,False,trial > churn,churn,2020-02-04,2021-04-30,7,,False,False
+478,2020-10-23,2020-10,True,basic monthly,2020-10-30,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-19,2021-04-30,189,182,True,False
+479,2020-10-01,2020-10,True,basic monthly,2020-10-08,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-24,2021-04-30,211,204,True,False
+480,2020-10-05,2020-10,True,basic monthly,2020-10-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-02-10,2021-04-30,207,200,True,False
+481,2020-07-08,2020-07,False,,,,,churned,True,2020-07-15,trial,2,0,False,trial > churn,churn,2020-07-15,2021-04-30,7,,False,False
+482,2020-06-25,2020-06,True,pro monthly,2020-07-02,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-02,2021-04-30,309,302,True,False
+483,2020-01-12,2020-01,True,basic monthly,2020-01-19,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-10,2021-04-30,474,467,True,False
+484,2020-09-17,2020-09,True,basic monthly,2020-09-24,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-15,2021-04-30,225,218,True,False
+485,2020-05-24,2020-05,True,pro monthly,2020-05-31,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-07-31,2021-04-30,341,334,True,False
+486,2020-06-27,2020-06,True,basic monthly,2020-07-04,7,basic monthly,churned,True,2020-10-10,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-10-10,2021-04-30,105,98,False,False
+487,2020-12-07,2020-12,True,basic monthly,2020-12-14,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-14,2021-04-30,144,137,True,False
+488,2020-02-15,2020-02,True,pro monthly,2020-02-22,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-06-22,2021-04-30,440,433,True,False
+489,2020-08-25,2020-08,False,,,,,churned,True,2020-09-01,trial,2,0,False,trial > churn,churn,2020-09-01,2021-04-30,7,,False,False
+490,2020-04-22,2020-04,True,basic monthly,2020-04-29,7,pro monthly,churned,True,2020-07-01,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-07-01,2021-04-30,70,63,False,False
+491,2020-07-02,2020-07,True,pro monthly,2020-07-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-09,2021-04-30,302,295,True,False
+492,2020-02-27,2020-02,True,basic monthly,2020-03-05,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-05,2021-04-30,428,421,True,False
+493,2020-07-14,2020-07,True,basic monthly,2020-07-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-19,2021-04-30,290,283,True,False
+494,2020-07-18,2020-07,True,pro monthly,2020-07-25,7,pro monthly,churned,True,2021-01-06,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-01-06,2021-04-30,172,165,False,False
+495,2020-01-04,2020-01,True,pro monthly,2020-01-11,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-11,2021-04-30,482,475,True,False
+496,2020-02-08,2020-02,True,basic monthly,2020-02-15,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-05,2021-04-30,447,440,True,False
+497,2020-04-08,2020-04,True,basic monthly,2020-04-15,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-01-18,2021-04-30,387,380,True,False
+498,2020-11-13,2020-11,True,basic monthly,2020-11-20,7,basic monthly,churned,True,2021-03-08,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-08,2021-04-30,115,108,False,False
+499,2020-02-17,2020-02,True,pro monthly,2020-02-24,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-24,2021-04-30,438,431,True,False
+500,2020-09-16,2020-09,True,basic monthly,2020-09-23,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-21,2021-04-30,226,219,True,False
+501,2020-10-15,2020-10,False,,,,,churned,True,2020-10-22,trial,2,0,False,trial > churn,churn,2020-10-22,2021-04-30,7,,False,False
+502,2020-01-25,2020-01,True,basic monthly,2020-02-01,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-06-25,2021-04-30,461,454,True,False
+503,2020-09-08,2020-09,True,pro monthly,2020-09-15,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-15,2021-04-30,234,227,True,False
+504,2020-05-19,2020-05,True,pro monthly,2020-05-26,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-26,2021-04-30,346,339,True,False
+505,2020-11-17,2020-11,True,basic monthly,2020-11-24,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-25,2021-04-30,164,157,True,False
+506,2020-07-11,2020-07,True,basic monthly,2020-07-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-26,2021-04-30,293,286,True,False
+507,2020-07-16,2020-07,True,basic monthly,2020-07-23,7,basic monthly,churned,True,2020-11-22,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-22,2021-04-30,129,122,False,False
+508,2020-12-20,2020-12,False,,,,,churned,True,2020-12-27,trial,2,0,False,trial > churn,churn,2020-12-27,2021-04-30,7,,False,False
+509,2020-09-23,2020-09,True,basic monthly,2020-09-30,7,basic monthly,churned,True,2020-10-14,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-10-14,2021-04-30,21,14,False,False
+510,2020-02-19,2020-02,True,basic monthly,2020-02-26,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-06-19,2021-04-30,436,429,True,False
+511,2020-11-11,2020-11,True,pro annual,2020-11-18,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-11-18,2021-04-30,170,163,True,False
+512,2020-12-23,2020-12,True,basic monthly,2020-12-30,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-04-12,2021-04-30,128,121,True,False
+513,2020-07-27,2020-07,True,pro monthly,2020-08-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-03,2021-04-30,277,270,True,False
+514,2020-01-29,2020-01,True,basic monthly,2020-02-05,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-03-11,2021-04-30,457,450,True,False
+515,2020-05-15,2020-05,True,basic monthly,2020-05-22,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-06,2021-04-30,350,343,True,False
+516,2020-12-21,2020-12,True,basic monthly,2020-12-28,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-20,2021-04-30,130,123,True,False
+517,2020-07-24,2020-07,True,basic monthly,2020-07-31,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-21,2021-04-30,280,273,True,False
+518,2020-10-06,2020-10,False,,,,,churned,True,2020-10-13,trial,2,0,False,trial > churn,churn,2020-10-13,2021-04-30,7,,False,False
+519,2020-01-22,2020-01,True,basic monthly,2020-01-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-29,2021-04-30,464,457,True,False
+520,2020-08-16,2020-08,True,basic monthly,2020-08-23,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-16,2021-04-30,257,250,True,False
+521,2020-06-17,2020-06,True,pro monthly,2020-06-24,7,pro monthly,churned,True,2020-11-07,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-07,2021-04-30,143,136,False,False
+522,2020-08-26,2020-08,True,basic monthly,2020-09-02,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-26,2021-04-30,247,240,True,False
+523,2020-04-21,2020-04,False,,,,,churned,True,2020-04-28,trial,2,0,False,trial > churn,churn,2020-04-28,2021-04-30,7,,False,False
+524,2020-08-09,2020-08,True,basic monthly,2020-08-16,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-31,2021-04-30,264,257,True,False
+525,2020-08-31,2020-08,True,basic monthly,2020-09-07,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-07,2021-04-30,242,235,True,False
+526,2020-05-20,2020-05,True,basic monthly,2020-05-27,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-23,2021-04-30,345,338,True,False
+527,2020-04-20,2020-04,True,pro monthly,2020-04-27,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-27,2021-04-30,375,368,True,False
+528,2020-08-06,2020-08,True,pro monthly,2020-08-13,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-13,2021-04-30,267,260,True,False
+529,2020-03-30,2020-03,True,basic monthly,2020-04-06,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-13,2021-04-30,396,389,True,False
+530,2020-02-23,2020-02,True,basic monthly,2020-03-01,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-10-21,2021-04-30,432,425,True,False
+531,2020-04-24,2020-04,True,basic monthly,2020-05-01,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-25,2021-04-30,371,364,True,False
+532,2020-03-28,2020-03,True,basic monthly,2020-04-04,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-09-24,2021-04-30,398,391,True,False
+533,2020-02-01,2020-02,True,basic monthly,2020-02-08,7,basic monthly,churned,True,2020-03-05,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-03-05,2021-04-30,33,26,False,False
+534,2020-05-25,2020-05,True,basic monthly,2020-06-01,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-15,2021-04-30,340,333,True,False
+535,2020-03-26,2020-03,True,pro monthly,2020-04-02,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-02,2021-04-30,400,393,True,False
+536,2020-09-07,2020-09,True,pro monthly,2020-09-14,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-14,2021-04-30,235,228,True,False
+537,2020-12-21,2020-12,True,basic monthly,2020-12-28,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-28,2021-04-30,130,123,True,False
+538,2020-10-12,2020-10,True,basic monthly,2020-10-19,7,basic monthly,churned,True,2021-01-22,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-22,2021-04-30,102,95,False,False
+539,2020-04-13,2020-04,True,pro monthly,2020-04-20,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-20,2021-04-30,382,375,True,False
+540,2020-08-16,2020-08,True,basic monthly,2020-08-23,7,pro monthly,churned,True,2021-03-09,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-03-09,2021-04-30,205,198,False,False
+541,2020-07-04,2020-07,True,pro annual,2020-07-11,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-07-11,2021-04-30,300,293,True,False
+542,2020-04-07,2020-04,True,pro annual,2020-04-14,7,pro annual,churned,True,2021-04-14,pro annual,3,0,False,trial > pro annual > churn,churn,2021-04-14,2021-04-30,372,365,False,False
+543,2020-05-05,2020-05,True,basic monthly,2020-05-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-03,2021-04-30,360,353,True,False
+544,2020-03-08,2020-03,True,pro monthly,2020-03-15,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-15,2021-04-30,418,411,True,False
+545,2020-03-05,2020-03,True,basic monthly,2020-03-12,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-04-21,2021-04-30,421,414,True,False
+546,2020-06-02,2020-06,True,basic monthly,2020-06-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-09,2021-04-30,332,325,True,False
+547,2020-03-05,2020-03,True,basic monthly,2020-03-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-24,2021-04-30,421,414,True,False
+548,2020-03-24,2020-03,True,basic monthly,2020-03-31,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-31,2021-04-30,402,395,True,False
+549,2020-10-07,2020-10,True,basic monthly,2020-10-14,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-12,2021-04-30,205,198,True,False
+550,2020-09-24,2020-09,True,basic monthly,2020-10-01,7,basic monthly,churned,True,2021-03-22,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-22,2021-04-30,179,172,False,False
+551,2020-05-07,2020-05,True,basic monthly,2020-05-14,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-14,2021-04-30,358,351,True,False
+552,2020-07-27,2020-07,True,pro monthly,2020-08-03,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-01-03,2021-04-30,277,270,True,False
+553,2020-09-30,2020-09,True,pro monthly,2020-10-07,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-07,2021-04-30,212,205,True,False
+554,2020-09-27,2020-09,True,pro monthly,2020-10-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-04,2021-04-30,215,208,True,False
+555,2020-04-24,2020-04,True,basic monthly,2020-05-01,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-24,2021-04-30,371,364,True,False
+556,2020-08-08,2020-08,True,basic monthly,2020-08-15,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-10,2021-04-30,265,258,True,False
+557,2020-03-02,2020-03,True,basic monthly,2020-03-09,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-04-24,2021-04-30,424,417,True,True
+558,2020-12-15,2020-12,True,pro monthly,2020-12-22,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-22,2021-04-30,136,129,True,False
+559,2020-11-06,2020-11,True,basic monthly,2020-11-13,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-13,2021-04-30,175,168,True,False
+560,2020-06-25,2020-06,True,basic monthly,2020-07-02,7,basic monthly,churned,True,2020-09-07,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-07,2021-04-30,74,67,False,False
+561,2020-06-18,2020-06,True,basic monthly,2020-06-25,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-25,2021-04-30,316,309,True,False
+562,2020-08-06,2020-08,True,basic monthly,2020-08-13,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-23,2021-04-30,267,260,True,False
+563,2020-06-19,2020-06,True,basic monthly,2020-06-26,7,basic monthly,churned,True,2020-07-19,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-19,2021-04-30,30,23,False,False
+564,2020-06-19,2020-06,False,,,,,churned,True,2020-06-26,trial,2,0,False,trial > churn,churn,2020-06-26,2021-04-30,7,,False,False
+565,2020-01-02,2020-01,True,pro monthly,2020-01-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-09,2021-04-30,484,477,True,False
+566,2020-11-26,2020-11,True,pro monthly,2020-12-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-03,2021-04-30,155,148,True,False
+567,2020-07-12,2020-07,False,,,,,churned,True,2020-07-19,trial,2,0,False,trial > churn,churn,2020-07-19,2021-04-30,7,,False,False
+568,2020-04-02,2020-04,True,basic monthly,2020-04-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-04-09,2021-04-30,393,386,True,False
+569,2020-12-12,2020-12,True,basic monthly,2020-12-19,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-31,2021-04-30,139,132,True,False
+570,2020-10-22,2020-10,True,basic monthly,2020-10-29,7,basic monthly,churned,True,2021-03-16,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-16,2021-04-30,145,138,False,False
+571,2020-12-15,2020-12,True,basic monthly,2020-12-22,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-22,2021-04-30,136,129,True,False
+572,2020-03-28,2020-03,True,basic monthly,2020-04-04,7,basic monthly,churned,True,2020-09-08,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-08,2021-04-30,164,157,False,False
+573,2020-07-02,2020-07,True,basic monthly,2020-07-09,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-01-23,2021-04-30,302,295,True,False
+574,2020-10-02,2020-10,True,basic monthly,2020-10-09,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-30,2021-04-30,210,203,True,False
+575,2020-06-16,2020-06,True,basic monthly,2020-06-23,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-31,2021-04-30,318,311,True,False
+576,2020-12-27,2020-12,True,pro monthly,2021-01-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2021-01-03,2021-04-30,124,117,True,False
+577,2020-12-07,2020-12,True,basic monthly,2020-12-14,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-14,2021-04-30,144,137,True,False
+578,2020-01-30,2020-01,True,basic monthly,2020-02-06,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-06,2021-04-30,456,449,True,False
+579,2020-01-13,2020-01,True,pro monthly,2020-01-20,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-20,2021-04-30,473,466,True,False
+580,2020-10-11,2020-10,True,pro monthly,2020-10-18,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-03-18,2021-04-30,201,194,True,False
+581,2020-01-05,2020-01,True,basic monthly,2020-01-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-06-01,2021-04-30,481,474,True,False
+582,2020-11-29,2020-11,True,basic monthly,2020-12-06,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-06,2021-04-30,152,145,True,False
+583,2020-02-20,2020-02,True,basic monthly,2020-02-27,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-03-04,2021-04-30,435,428,True,True
+584,2020-08-22,2020-08,True,pro monthly,2020-08-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-29,2021-04-30,251,244,True,False
+585,2020-01-22,2020-01,True,pro monthly,2020-01-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-29,2021-04-30,464,457,True,False
+586,2020-01-12,2020-01,True,basic monthly,2020-01-19,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-19,2021-04-30,474,467,True,False
+587,2020-06-21,2020-06,True,pro monthly,2020-06-28,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-07-28,2021-04-30,313,306,True,False
+588,2020-12-12,2020-12,True,pro monthly,2020-12-19,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-04-19,2021-04-30,139,132,True,False
+589,2020-09-14,2020-09,True,basic monthly,2020-09-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-01,2021-04-30,228,221,True,False
+590,2020-02-08,2020-02,True,basic monthly,2020-02-15,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-15,2021-04-30,447,440,True,False
+591,2020-05-14,2020-05,True,basic monthly,2020-05-21,7,pro monthly,churned,True,2020-12-08,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-12-08,2021-04-30,208,201,False,False
+592,2020-02-01,2020-02,True,pro annual,2020-02-08,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-02-08,2021-04-30,454,447,True,True
+593,2020-03-04,2020-03,True,basic monthly,2020-03-11,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-11,2021-04-30,422,415,True,False
+594,2020-01-15,2020-01,True,pro monthly,2020-01-22,7,pro monthly,churned,True,2020-03-14,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-03-14,2021-04-30,59,52,False,False
+595,2020-06-04,2020-06,True,basic monthly,2020-06-11,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-18,2021-04-30,330,323,True,False
+596,2020-05-18,2020-05,True,basic monthly,2020-05-25,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-25,2021-04-30,347,340,True,False
+597,2020-03-27,2020-03,True,pro monthly,2020-04-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-03,2021-04-30,399,392,True,False
+598,2020-12-28,2020-12,True,pro monthly,2021-01-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2021-01-04,2021-04-30,123,116,True,False
+599,2020-02-08,2020-02,True,basic monthly,2020-02-15,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-05-01,2021-04-30,447,440,True,False
+600,2020-06-20,2020-06,True,basic monthly,2020-06-27,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-11-09,2021-04-30,314,307,True,False
+601,2020-01-11,2020-01,True,basic monthly,2020-01-18,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-18,2021-04-30,475,468,True,False
+602,2020-03-25,2020-03,True,basic monthly,2020-04-01,7,basic monthly,churned,True,2020-05-09,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-05-09,2021-04-30,45,38,False,False
+603,2020-04-20,2020-04,True,pro monthly,2020-04-27,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-27,2021-04-30,375,368,True,False
+604,2020-07-21,2020-07,True,basic monthly,2020-07-28,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-28,2021-04-30,283,276,True,False
+605,2020-09-23,2020-09,True,pro annual,2020-09-30,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-09-30,2021-04-30,219,212,True,False
+606,2020-01-27,2020-01,False,,,,,churned,True,2020-02-03,trial,2,0,False,trial > churn,churn,2020-02-03,2021-04-30,7,,False,False
+607,2020-01-02,2020-01,True,basic monthly,2020-01-09,7,basic monthly,churned,True,2020-04-03,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-04-03,2021-04-30,92,85,False,False
+608,2020-06-23,2020-06,True,basic monthly,2020-06-30,7,basic monthly,churned,True,2020-11-29,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-29,2021-04-30,159,152,False,False
+609,2020-06-12,2020-06,True,pro monthly,2020-06-19,7,pro monthly,churned,True,2020-12-01,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-12-01,2021-04-30,172,165,False,False
+610,2020-12-13,2020-12,True,basic monthly,2020-12-20,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-27,2021-04-30,138,131,True,False
+611,2020-07-31,2020-07,True,pro monthly,2020-08-07,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-07,2021-04-30,273,266,True,False
+612,2020-11-14,2020-11,False,,,,,churned,True,2020-11-21,trial,2,0,False,trial > churn,churn,2020-11-21,2021-04-30,7,,False,False
+613,2020-04-26,2020-04,False,,,,,churned,True,2020-05-03,trial,2,0,False,trial > churn,churn,2020-05-03,2021-04-30,7,,False,False
+614,2020-11-07,2020-11,True,basic monthly,2020-11-14,7,basic monthly,churned,True,2021-02-14,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-02-14,2021-04-30,99,92,False,False
+615,2020-06-27,2020-06,True,pro monthly,2020-07-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-04,2021-04-30,307,300,True,False
+616,2020-03-20,2020-03,True,basic monthly,2020-03-27,7,basic monthly,churned,True,2020-03-31,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-03-31,2021-04-30,11,4,False,False
+617,2020-08-30,2020-08,True,pro annual,2020-09-06,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-09-06,2021-04-30,243,236,True,False
+618,2020-01-16,2020-01,True,basic monthly,2020-01-23,7,pro monthly,churned,True,2020-08-27,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-08-27,2021-04-30,224,217,False,False
+619,2020-04-21,2020-04,True,pro monthly,2020-04-28,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-28,2021-04-30,374,367,True,False
+620,2020-12-06,2020-12,True,basic monthly,2020-12-13,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-13,2021-04-30,145,138,True,False
+621,2020-11-06,2020-11,True,basic monthly,2020-11-13,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-13,2021-04-30,175,168,True,False
+622,2020-11-30,2020-11,True,basic monthly,2020-12-07,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-07,2021-04-30,151,144,True,False
+623,2020-10-14,2020-10,True,pro monthly,2020-10-21,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-21,2021-04-30,198,191,True,False
+624,2020-08-24,2020-08,True,pro monthly,2020-08-31,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-31,2021-04-30,249,242,True,False
+625,2020-03-21,2020-03,True,pro monthly,2020-03-28,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-28,2021-04-30,405,398,True,False
+626,2020-07-08,2020-07,True,basic monthly,2020-07-15,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-15,2021-04-30,296,289,True,False
+627,2020-03-09,2020-03,True,pro monthly,2020-03-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-16,2021-04-30,417,410,True,False
+628,2020-08-01,2020-08,True,pro monthly,2020-08-08,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-08,2021-04-30,272,265,True,False
+629,2020-11-04,2020-11,False,,,,,churned,True,2020-11-11,trial,2,0,False,trial > churn,churn,2020-11-11,2021-04-30,7,,False,False
+630,2020-01-26,2020-01,True,pro monthly,2020-02-02,7,pro monthly,churned,True,2020-06-02,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-06-02,2021-04-30,128,121,False,False
+631,2020-08-03,2020-08,True,basic monthly,2020-08-10,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-22,2021-04-30,270,263,True,False
+632,2020-04-24,2020-04,True,basic monthly,2020-05-01,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-17,2021-04-30,371,364,True,False
+633,2020-12-27,2020-12,False,,,,,churned,True,2021-01-03,trial,2,0,False,trial > churn,churn,2021-01-03,2021-04-30,7,,False,False
+634,2020-07-15,2020-07,False,,,,,churned,True,2020-07-22,trial,2,0,False,trial > churn,churn,2020-07-22,2021-04-30,7,,False,False
+635,2020-02-17,2020-02,True,basic monthly,2020-02-24,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-05-27,2021-04-30,438,431,True,False
+636,2020-09-25,2020-09,True,basic monthly,2020-10-02,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-02,2021-04-30,217,210,True,False
+637,2020-09-20,2020-09,True,basic monthly,2020-09-27,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-27,2021-04-30,222,215,True,False
+638,2020-09-03,2020-09,False,,,,,churned,True,2020-09-10,trial,2,0,False,trial > churn,churn,2020-09-10,2021-04-30,7,,False,False
+639,2020-07-20,2020-07,True,pro annual,2020-07-27,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-07-27,2021-04-30,284,277,True,False
+640,2020-03-17,2020-03,True,basic monthly,2020-03-24,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-13,2021-04-30,409,402,True,False
+641,2020-02-25,2020-02,True,pro monthly,2020-03-03,7,pro monthly,churned,True,2020-06-06,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-06-06,2021-04-30,102,95,False,False
+642,2020-03-18,2020-03,True,basic monthly,2020-03-25,7,basic monthly,churned,True,2020-05-08,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-05-08,2021-04-30,51,44,False,False
+643,2020-04-03,2020-04,True,basic monthly,2020-04-10,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-17,2021-04-30,392,385,True,False
+644,2020-01-03,2020-01,True,basic monthly,2020-01-10,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-10,2021-04-30,483,476,True,False
+645,2020-05-07,2020-05,True,pro monthly,2020-05-14,7,pro monthly,churned,True,2020-05-20,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-05-20,2021-04-30,13,6,False,False
+646,2020-02-28,2020-02,True,basic monthly,2020-03-06,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-06,2021-04-30,427,420,True,False
+647,2020-05-01,2020-05,True,basic monthly,2020-05-08,7,pro monthly,churned,True,2020-12-05,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-12-05,2021-04-30,218,211,False,False
+648,2020-03-16,2020-03,True,basic monthly,2020-03-23,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-05-30,2021-04-30,410,403,True,False
+649,2020-09-02,2020-09,True,pro monthly,2020-09-09,7,pro monthly,churned,True,2021-01-21,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-01-21,2021-04-30,141,134,False,False
+650,2020-04-16,2020-04,False,,,,,churned,True,2020-04-23,trial,2,0,False,trial > churn,churn,2020-04-23,2021-04-30,7,,False,False
+651,2020-06-12,2020-06,True,basic monthly,2020-06-19,7,pro monthly,churned,True,2020-10-31,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-10-31,2021-04-30,141,134,False,False
+652,2020-07-20,2020-07,True,basic monthly,2020-07-27,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-25,2021-04-30,284,277,True,False
+653,2020-06-30,2020-06,True,pro monthly,2020-07-07,7,pro monthly,churned,True,2020-07-22,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-07-22,2021-04-30,22,15,False,False
+654,2020-12-01,2020-12,True,basic monthly,2020-12-08,7,basic monthly,churned,True,2021-03-10,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-10,2021-04-30,99,92,False,False
+655,2020-04-22,2020-04,True,basic monthly,2020-04-29,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-16,2021-04-30,373,366,True,False
+656,2020-05-22,2020-05,True,pro monthly,2020-05-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-29,2021-04-30,343,336,True,False
+657,2020-09-25,2020-09,False,,,,,churned,True,2020-10-02,trial,2,0,False,trial > churn,churn,2020-10-02,2021-04-30,7,,False,False
+658,2020-11-14,2020-11,True,basic monthly,2020-11-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-27,2021-04-30,167,160,True,False
+659,2020-09-30,2020-09,True,pro monthly,2020-10-07,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-07,2021-04-30,212,205,True,False
+660,2020-05-02,2020-05,False,,,,,churned,True,2020-05-09,trial,2,0,False,trial > churn,churn,2020-05-09,2021-04-30,7,,False,False
+661,2020-04-13,2020-04,True,basic monthly,2020-04-20,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-10-09,2021-04-30,382,375,True,False
+662,2020-01-28,2020-01,True,pro monthly,2020-02-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-04,2021-04-30,458,451,True,False
+663,2020-09-13,2020-09,True,pro monthly,2020-09-20,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-20,2021-04-30,229,222,True,False
+664,2020-01-30,2020-01,True,basic monthly,2020-02-06,7,pro annual,churned,True,2021-04-20,pro annual,4,1,True,trial > basic monthly > pro annual > churn,churn,2021-04-20,2021-04-30,446,439,False,False
+665,2020-09-24,2020-09,True,basic monthly,2020-10-01,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-01,2021-04-30,218,211,True,False
+666,2020-12-10,2020-12,True,pro monthly,2020-12-17,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-17,2021-04-30,141,134,True,False
+667,2020-12-25,2020-12,True,pro monthly,2021-01-01,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2021-01-01,2021-04-30,126,119,True,False
+668,2020-02-13,2020-02,True,basic monthly,2020-02-20,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-06-14,2021-04-30,442,435,True,False
+669,2020-11-28,2020-11,True,basic monthly,2020-12-05,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-04-24,2021-04-30,153,146,True,False
+670,2020-01-03,2020-01,True,pro monthly,2020-01-10,7,pro monthly,churned,True,2020-02-18,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-02-18,2021-04-30,46,39,False,False
+671,2020-06-01,2020-06,True,pro annual,2020-06-08,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-06-08,2021-04-30,333,326,True,False
+672,2020-12-29,2020-12,True,pro monthly,2021-01-05,7,pro monthly,churned,True,2021-03-01,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-03-01,2021-04-30,62,55,False,False
+673,2020-01-01,2020-01,True,basic monthly,2020-01-08,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-08,2021-04-30,485,478,True,False
+674,2020-02-03,2020-02,True,basic monthly,2020-02-10,7,basic monthly,churned,True,2020-04-12,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-04-12,2021-04-30,69,62,False,False
+675,2020-04-25,2020-04,True,pro monthly,2020-05-02,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-02,2021-04-30,370,363,True,False
+676,2020-04-22,2020-04,True,basic monthly,2020-04-29,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-08,2021-04-30,373,366,True,False
+677,2020-12-15,2020-12,True,basic monthly,2020-12-22,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-22,2021-04-30,136,129,True,False
+678,2020-03-05,2020-03,True,basic monthly,2020-03-12,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-12,2021-04-30,421,414,True,False
+679,2020-06-10,2020-06,True,pro monthly,2020-06-17,7,pro monthly,churned,True,2020-11-30,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-30,2021-04-30,173,166,False,False
+680,2020-04-11,2020-04,True,basic monthly,2020-04-18,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-04-18,2021-04-30,384,377,True,False
+681,2020-02-23,2020-02,True,pro monthly,2020-03-01,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-01,2021-04-30,432,425,True,False
+682,2020-08-21,2020-08,True,basic monthly,2020-08-28,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-15,2021-04-30,252,245,True,False
+683,2020-07-19,2020-07,True,basic monthly,2020-07-26,7,basic monthly,churned,True,2020-08-06,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-08-06,2021-04-30,18,11,False,False
+684,2020-06-09,2020-06,True,basic monthly,2020-06-16,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-12-16,2021-04-30,325,318,True,False
+685,2020-05-09,2020-05,True,basic monthly,2020-05-16,7,pro monthly,churned,True,2021-02-09,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-02-09,2021-04-30,276,269,False,False
+686,2020-07-24,2020-07,True,basic monthly,2020-07-31,7,pro monthly,churned,True,2020-11-02,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-11-02,2021-04-30,101,94,False,False
+687,2020-05-23,2020-05,True,basic monthly,2020-05-30,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-30,2021-04-30,342,335,True,False
+688,2020-08-13,2020-08,True,basic monthly,2020-08-20,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-20,2021-04-30,260,253,True,False
+689,2020-12-09,2020-12,True,pro monthly,2020-12-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-16,2021-04-30,142,135,True,False
+690,2020-04-28,2020-04,True,basic monthly,2020-05-05,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-13,2021-04-30,367,360,True,False
+691,2020-06-15,2020-06,True,pro monthly,2020-06-22,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-22,2021-04-30,319,312,True,False
+692,2020-11-23,2020-11,True,basic monthly,2020-11-30,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-30,2021-04-30,158,151,True,False
+693,2020-08-13,2020-08,True,pro monthly,2020-08-20,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-20,2021-04-30,260,253,True,False
+694,2020-11-26,2020-11,True,basic monthly,2020-12-03,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-03,2021-04-30,155,148,True,False
+695,2020-05-04,2020-05,True,pro monthly,2020-05-11,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-11,2021-04-30,361,354,True,False
+696,2020-09-27,2020-09,True,basic monthly,2020-10-04,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-04,2021-04-30,215,208,True,False
+697,2020-01-23,2020-01,True,basic monthly,2020-01-30,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-01-30,2021-04-30,463,456,True,False
+698,2020-11-12,2020-11,True,basic monthly,2020-11-19,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-28,2021-04-30,169,162,True,False
+699,2020-06-19,2020-06,True,pro monthly,2020-06-26,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-06-26,2021-04-30,315,308,True,False
+700,2020-12-06,2020-12,True,pro monthly,2020-12-13,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-03-13,2021-04-30,145,138,True,False
+701,2020-05-10,2020-05,True,basic monthly,2020-05-17,7,basic monthly,churned,True,2020-11-07,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-07,2021-04-30,181,174,False,False
+702,2020-01-08,2020-01,True,pro monthly,2020-01-15,7,pro monthly,churned,True,2020-02-27,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-02-27,2021-04-30,50,43,False,False
+703,2020-11-02,2020-11,True,basic monthly,2020-11-09,7,basic monthly,churned,True,2020-12-04,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-04,2021-04-30,32,25,False,False
+704,2020-12-06,2020-12,True,basic monthly,2020-12-13,7,basic monthly,churned,True,2021-01-19,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-19,2021-04-30,44,37,False,False
+705,2020-07-15,2020-07,True,basic monthly,2020-07-22,7,pro monthly,churned,True,2021-02-06,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-02-06,2021-04-30,206,199,False,False
+706,2020-12-07,2020-12,True,basic monthly,2020-12-14,7,basic monthly,churned,True,2021-01-24,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-24,2021-04-30,48,41,False,False
+707,2020-08-30,2020-08,True,basic monthly,2020-09-06,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-28,2021-04-30,243,236,True,False
+708,2020-07-05,2020-07,False,,,,,churned,True,2020-07-12,trial,2,0,False,trial > churn,churn,2020-07-12,2021-04-30,7,,False,False
+709,2020-03-11,2020-03,True,basic monthly,2020-03-18,7,basic monthly,churned,True,2020-03-30,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-03-30,2021-04-30,19,12,False,False
+710,2020-09-29,2020-09,True,basic monthly,2020-10-06,7,basic monthly,churned,True,2020-12-24,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-24,2021-04-30,86,79,False,False
+711,2020-10-02,2020-10,True,basic monthly,2020-10-09,7,pro monthly,churned,True,2020-12-31,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-12-31,2021-04-30,90,83,False,False
+712,2020-12-26,2020-12,True,basic monthly,2021-01-02,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2021-01-02,2021-04-30,125,118,True,False
+713,2020-09-15,2020-09,True,pro monthly,2020-09-22,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-22,2021-04-30,227,220,True,False
+714,2020-07-28,2020-07,True,pro monthly,2020-08-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-04,2021-04-30,276,269,True,False
+715,2020-02-21,2020-02,True,pro annual,2020-02-28,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-02-28,2021-04-30,434,427,True,True
+716,2020-12-23,2020-12,True,basic monthly,2020-12-30,7,basic monthly,churned,True,2021-02-16,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-02-16,2021-04-30,55,48,False,False
+717,2020-01-08,2020-01,True,pro monthly,2020-01-15,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-06-15,2021-04-30,478,471,True,False
+718,2020-05-24,2020-05,True,basic monthly,2020-05-31,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-31,2021-04-30,341,334,True,False
+719,2020-04-11,2020-04,True,basic monthly,2020-04-18,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-04-18,2021-04-30,384,377,True,False
+720,2020-04-27,2020-04,True,pro monthly,2020-05-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-05-04,2021-04-30,368,361,True,False
+721,2020-08-12,2020-08,True,basic monthly,2020-08-19,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-19,2021-04-30,261,254,True,False
+722,2020-08-21,2020-08,True,basic monthly,2020-08-28,7,basic monthly,churned,True,2021-01-31,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-31,2021-04-30,163,156,False,False
+723,2020-05-26,2020-05,True,pro monthly,2020-06-02,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-06-02,2021-04-30,339,332,True,False
+724,2020-10-03,2020-10,True,pro monthly,2020-10-10,7,pro monthly,churned,True,2020-11-06,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-06,2021-04-30,34,27,False,False
+725,2020-05-30,2020-05,True,pro monthly,2020-06-06,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-07-06,2021-04-30,335,328,True,False
+726,2020-03-02,2020-03,False,,,,,churned,True,2020-03-09,trial,2,0,False,trial > churn,churn,2020-03-09,2021-04-30,7,,False,False
+727,2020-04-05,2020-04,True,pro monthly,2020-04-12,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-12,2021-04-30,390,383,True,False
+728,2020-06-17,2020-06,True,basic monthly,2020-06-24,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-24,2021-04-30,317,310,True,False
+729,2020-04-03,2020-04,True,basic monthly,2020-04-10,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-17,2021-04-30,392,385,True,False
+730,2020-08-15,2020-08,True,basic monthly,2020-08-22,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-27,2021-04-30,258,251,True,False
+731,2020-09-13,2020-09,True,basic monthly,2020-09-20,7,pro monthly,churned,True,2021-03-07,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-03-07,2021-04-30,175,168,False,False
+732,2020-06-16,2020-06,False,,,,,churned,True,2020-06-23,trial,2,0,False,trial > churn,churn,2020-06-23,2021-04-30,7,,False,False
+733,2020-04-11,2020-04,True,basic monthly,2020-04-18,7,basic monthly,churned,True,2020-04-24,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-04-24,2021-04-30,13,6,False,False
+734,2020-09-05,2020-09,True,pro monthly,2020-09-12,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-12,2021-04-30,237,230,True,False
+735,2020-11-23,2020-11,True,basic monthly,2020-11-30,7,basic monthly,churned,True,2021-04-04,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-04-04,2021-04-30,132,125,False,False
+736,2020-03-19,2020-03,True,basic monthly,2020-03-26,7,pro monthly,churned,True,2020-06-04,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-06-04,2021-04-30,77,70,False,False
+737,2020-11-04,2020-11,True,basic monthly,2020-11-11,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-11,2021-04-30,177,170,True,False
+738,2020-01-22,2020-01,True,pro annual,2020-01-29,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-01-29,2021-04-30,464,457,True,True
+739,2020-12-06,2020-12,True,pro monthly,2020-12-13,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-13,2021-04-30,145,138,True,False
+740,2020-12-30,2020-12,True,basic monthly,2021-01-06,7,basic monthly,churned,True,2021-04-06,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-04-06,2021-04-30,97,90,False,False
+741,2020-03-24,2020-03,True,pro monthly,2020-03-31,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-31,2021-04-30,402,395,True,False
+742,2020-08-13,2020-08,True,basic monthly,2020-08-20,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-11-22,2021-04-30,260,253,True,False
+743,2020-07-14,2020-07,True,pro annual,2020-07-21,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-07-21,2021-04-30,290,283,True,False
+744,2020-04-15,2020-04,True,pro monthly,2020-04-22,7,pro monthly,churned,True,2020-09-11,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-09-11,2021-04-30,149,142,False,False
+745,2020-03-05,2020-03,True,basic monthly,2020-03-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-25,2021-04-30,421,414,True,False
+746,2020-11-28,2020-11,True,basic monthly,2020-12-05,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-04-23,2021-04-30,153,146,True,False
+747,2020-11-10,2020-11,True,pro monthly,2020-11-17,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-11-17,2021-04-30,171,164,True,False
+748,2020-02-29,2020-02,True,pro monthly,2020-03-07,7,pro monthly,churned,True,2020-07-10,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-07-10,2021-04-30,132,125,False,False
+749,2020-02-02,2020-02,True,pro monthly,2020-02-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-09,2021-04-30,453,446,True,False
+750,2020-07-03,2020-07,False,,,,,churned,True,2020-07-10,trial,2,0,False,trial > churn,churn,2020-07-10,2021-04-30,7,,False,False
+751,2020-05-31,2020-05,True,basic monthly,2020-06-07,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-07,2021-04-30,334,327,True,False
+752,2020-10-28,2020-10,False,,,,,churned,True,2020-11-04,trial,2,0,False,trial > churn,churn,2020-11-04,2021-04-30,7,,False,False
+753,2020-08-26,2020-08,True,basic monthly,2020-09-02,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-23,2021-04-30,247,240,True,False
+754,2020-04-26,2020-04,True,basic monthly,2020-05-03,7,basic monthly,churned,True,2020-05-09,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-05-09,2021-04-30,13,6,False,False
+755,2020-05-09,2020-05,True,basic monthly,2020-05-16,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-22,2021-04-30,356,349,True,False
+756,2020-02-19,2020-02,False,,,,,churned,True,2020-02-26,trial,2,0,False,trial > churn,churn,2020-02-26,2021-04-30,7,,False,False
+757,2020-11-05,2020-11,False,,,,,churned,True,2020-11-12,trial,2,0,False,trial > churn,churn,2020-11-12,2021-04-30,7,,False,False
+758,2020-10-28,2020-10,True,basic monthly,2020-11-04,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-30,2021-04-30,184,177,True,False
+759,2020-11-11,2020-11,True,pro monthly,2020-11-18,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-11-18,2021-04-30,170,163,True,False
+760,2020-09-27,2020-09,False,,,,,churned,True,2020-10-04,trial,2,0,False,trial > churn,churn,2020-10-04,2021-04-30,7,,False,False
+761,2020-11-18,2020-11,True,basic monthly,2020-11-25,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-02-19,2021-04-30,163,156,True,False
+762,2020-10-07,2020-10,True,pro monthly,2020-10-14,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-14,2021-04-30,205,198,True,False
+763,2020-07-02,2020-07,True,pro monthly,2020-07-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-09,2021-04-30,302,295,True,False
+764,2020-03-04,2020-03,True,pro monthly,2020-03-11,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-11,2021-04-30,422,415,True,False
+765,2020-11-17,2020-11,True,basic monthly,2020-11-24,7,basic monthly,churned,True,2021-03-12,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-12,2021-04-30,115,108,False,False
+766,2020-12-14,2020-12,True,basic monthly,2020-12-21,7,pro monthly,churned,True,2021-04-05,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-04-05,2021-04-30,112,105,False,False
+767,2020-08-21,2020-08,True,basic monthly,2020-08-28,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-26,2021-04-30,252,245,True,False
+768,2020-03-23,2020-03,True,basic monthly,2020-03-30,7,basic monthly,churned,True,2020-06-01,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-06-01,2021-04-30,70,63,False,False
+769,2020-11-10,2020-11,True,basic monthly,2020-11-17,7,basic monthly,churned,True,2021-02-26,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-02-26,2021-04-30,108,101,False,False
+770,2020-12-03,2020-12,True,basic monthly,2020-12-10,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-10,2021-04-30,148,141,True,False
+771,2020-05-20,2020-05,False,,,,,churned,True,2020-05-27,trial,2,0,False,trial > churn,churn,2020-05-27,2021-04-30,7,,False,False
+772,2020-06-11,2020-06,True,basic monthly,2020-06-18,7,basic monthly,churned,True,2020-08-20,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-08-20,2021-04-30,70,63,False,False
+773,2020-09-29,2020-09,True,pro monthly,2020-10-06,7,pro monthly,churned,True,2021-01-21,pro monthly,3,0,False,trial > pro monthly > churn,churn,2021-01-21,2021-04-30,114,107,False,False
+774,2020-12-04,2020-12,True,pro monthly,2020-12-11,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-11,2021-04-30,147,140,True,False
+775,2020-11-24,2020-11,True,basic monthly,2020-12-01,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-03,2021-04-30,157,150,True,False
+776,2020-12-14,2020-12,True,basic monthly,2020-12-21,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-04-29,2021-04-30,137,130,True,False
+777,2020-09-06,2020-09,True,pro monthly,2020-09-13,7,pro monthly,churned,True,2020-10-07,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-10-07,2021-04-30,31,24,False,False
+778,2020-06-02,2020-06,True,pro monthly,2020-06-09,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-09,2021-04-30,332,325,True,False
+779,2020-08-16,2020-08,True,basic monthly,2020-08-23,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-14,2021-04-30,257,250,True,False
+780,2020-08-13,2020-08,True,basic monthly,2020-08-20,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-04-27,2021-04-30,260,253,True,False
+781,2020-11-10,2020-11,True,basic monthly,2020-11-17,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-17,2021-04-30,171,164,True,False
+782,2020-09-08,2020-09,True,pro monthly,2020-09-15,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-15,2021-04-30,234,227,True,False
+783,2020-05-28,2020-05,True,pro annual,2020-06-04,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-06-04,2021-04-30,337,330,True,False
+784,2020-12-02,2020-12,False,,,,,churned,True,2020-12-09,trial,2,0,False,trial > churn,churn,2020-12-09,2021-04-30,7,,False,False
+785,2020-04-12,2020-04,True,pro monthly,2020-04-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-19,2021-04-30,383,376,True,False
+786,2020-05-10,2020-05,False,,,,,churned,True,2020-05-17,trial,2,0,False,trial > churn,churn,2020-05-17,2021-04-30,7,,False,False
+787,2020-09-20,2020-09,True,pro monthly,2020-09-27,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-27,2021-04-30,222,215,True,False
+788,2020-05-11,2020-05,True,basic monthly,2020-05-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-23,2021-04-30,354,347,True,False
+789,2020-06-28,2020-06,True,basic monthly,2020-07-05,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-05,2021-04-30,306,299,True,False
+790,2020-03-10,2020-03,True,basic monthly,2020-03-17,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-17,2021-04-30,416,409,True,False
+791,2020-07-24,2020-07,False,,,,,churned,True,2020-07-31,trial,2,0,False,trial > churn,churn,2020-07-31,2021-04-30,7,,False,False
+792,2020-09-19,2020-09,True,basic monthly,2020-09-26,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-27,2021-04-30,223,216,True,False
+793,2020-05-07,2020-05,True,basic monthly,2020-05-14,7,basic monthly,churned,True,2020-10-19,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-10-19,2021-04-30,165,158,False,False
+794,2020-08-22,2020-08,True,pro monthly,2020-08-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-29,2021-04-30,251,244,True,False
+795,2020-08-22,2020-08,True,basic monthly,2020-08-29,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-13,2021-04-30,251,244,True,False
+796,2020-04-28,2020-04,True,pro monthly,2020-05-05,7,pro monthly,churned,True,2020-06-07,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-06-07,2021-04-30,40,33,False,False
+797,2020-01-17,2020-01,True,pro monthly,2020-01-24,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-24,2021-04-30,469,462,True,False
+798,2020-10-11,2020-10,True,basic monthly,2020-10-18,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-03-05,2021-04-30,201,194,True,False
+799,2020-12-12,2020-12,True,pro monthly,2020-12-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-19,2021-04-30,139,132,True,False
+800,2020-05-12,2020-05,False,,,,,churned,True,2020-05-19,trial,2,0,False,trial > churn,churn,2020-05-19,2021-04-30,7,,False,False
+801,2020-08-11,2020-08,True,pro monthly,2020-08-18,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-18,2021-04-30,262,255,True,False
+802,2020-02-05,2020-02,True,pro annual,2020-02-12,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-02-12,2021-04-30,450,443,True,True
+803,2020-01-23,2020-01,False,,,,,churned,True,2020-01-30,trial,2,0,False,trial > churn,churn,2020-01-30,2021-04-30,7,,False,False
+804,2020-07-12,2020-07,True,basic monthly,2020-07-19,7,pro monthly,churned,True,2020-11-27,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-11-27,2021-04-30,138,131,False,False
+805,2020-04-02,2020-04,True,basic monthly,2020-04-09,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-09-02,2021-04-30,393,386,True,False
+806,2020-05-02,2020-05,True,basic monthly,2020-05-09,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-06-13,2021-04-30,363,356,True,False
+807,2020-03-05,2020-03,True,basic monthly,2020-03-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-07-28,2021-04-30,421,414,True,False
+808,2020-05-17,2020-05,True,basic monthly,2020-05-24,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-24,2021-04-30,348,341,True,False
+809,2020-10-20,2020-10,True,basic monthly,2020-10-27,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-27,2021-04-30,192,185,True,False
+810,2020-11-22,2020-11,True,basic monthly,2020-11-29,7,basic monthly,churned,True,2020-12-02,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-02,2021-04-30,10,3,False,False
+811,2020-03-07,2020-03,True,basic monthly,2020-03-14,7,basic monthly,churned,True,2020-07-04,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-04,2021-04-30,119,112,False,False
+812,2020-05-13,2020-05,True,pro monthly,2020-05-20,7,pro monthly,churned,True,2020-11-15,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-15,2021-04-30,186,179,False,False
+813,2020-02-01,2020-02,True,pro monthly,2020-02-08,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-08,2021-04-30,454,447,True,False
+814,2020-11-11,2020-11,True,basic monthly,2020-11-18,7,basic monthly,churned,True,2021-04-02,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-04-02,2021-04-30,142,135,False,False
+815,2020-12-02,2020-12,True,pro monthly,2020-12-09,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-01-09,2021-04-30,149,142,True,False
+816,2020-01-19,2020-01,False,,,,,churned,True,2020-01-26,trial,2,0,False,trial > churn,churn,2020-01-26,2021-04-30,7,,False,False
+817,2020-05-21,2020-05,True,pro monthly,2020-05-28,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-28,2021-04-30,344,337,True,False
+818,2020-01-16,2020-01,True,basic monthly,2020-01-23,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-25,2021-04-30,470,463,True,False
+819,2020-01-18,2020-01,True,basic monthly,2020-01-25,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-06-01,2021-04-30,468,461,True,False
+820,2020-07-22,2020-07,True,basic monthly,2020-07-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-29,2021-04-30,282,275,True,False
+821,2020-04-15,2020-04,True,basic monthly,2020-04-22,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-06,2021-04-30,380,373,True,False
+822,2020-10-10,2020-10,True,basic monthly,2020-10-17,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-03-15,2021-04-30,202,195,True,False
+823,2020-04-07,2020-04,True,pro monthly,2020-04-14,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-14,2021-04-30,388,381,True,False
+824,2020-02-14,2020-02,True,pro monthly,2020-02-21,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-21,2021-04-30,441,434,True,False
+825,2020-09-27,2020-09,True,basic monthly,2020-10-04,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-10,2021-04-30,215,208,True,False
+826,2020-07-25,2020-07,True,basic monthly,2020-08-01,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-08-01,2021-04-30,279,272,True,False
+827,2020-11-03,2020-11,True,basic monthly,2020-11-10,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-11-10,2021-04-30,178,171,True,False
+828,2020-06-22,2020-06,True,basic monthly,2020-06-29,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-12-24,2021-04-30,312,305,True,False
+829,2020-04-13,2020-04,True,basic monthly,2020-04-20,7,basic monthly,churned,True,2020-09-23,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-23,2021-04-30,163,156,False,False
+830,2020-07-19,2020-07,True,basic monthly,2020-07-26,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-26,2021-04-30,285,278,True,False
+831,2020-08-10,2020-08,True,basic monthly,2020-08-17,7,pro monthly,churned,True,2021-01-15,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-01-15,2021-04-30,158,151,False,False
+832,2020-03-07,2020-03,True,basic monthly,2020-03-14,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-13,2021-04-30,419,412,True,False
+833,2020-10-08,2020-10,True,pro monthly,2020-10-15,7,pro monthly,churned,True,2020-10-22,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-10-22,2021-04-30,14,7,False,False
+834,2020-07-05,2020-07,True,pro monthly,2020-07-12,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-12,2021-04-30,299,292,True,False
+835,2020-10-04,2020-10,True,basic monthly,2020-10-11,7,basic monthly,churned,True,2020-11-28,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-28,2021-04-30,55,48,False,False
+836,2020-03-24,2020-03,True,basic monthly,2020-03-31,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-04-16,2021-04-30,402,395,True,True
+837,2020-11-05,2020-11,True,pro monthly,2020-11-12,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-11-12,2021-04-30,176,169,True,False
+838,2020-03-26,2020-03,True,basic monthly,2020-04-02,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-10-18,2021-04-30,400,393,True,False
+839,2020-08-13,2020-08,False,,,,,churned,True,2020-08-20,trial,2,0,False,trial > churn,churn,2020-08-20,2021-04-30,7,,False,False
+840,2020-04-11,2020-04,True,pro monthly,2020-04-18,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-05-18,2021-04-30,384,377,True,False
+841,2020-03-12,2020-03,True,pro monthly,2020-03-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-19,2021-04-30,414,407,True,False
+842,2020-02-11,2020-02,True,pro monthly,2020-02-18,7,pro monthly,churned,True,2020-08-14,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-08-14,2021-04-30,185,178,False,False
+843,2020-08-11,2020-08,True,basic monthly,2020-08-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-04,2021-04-30,262,255,True,False
+844,2020-10-14,2020-10,False,,,,,churned,True,2020-10-21,trial,2,0,False,trial > churn,churn,2020-10-21,2021-04-30,7,,False,False
+845,2020-04-21,2020-04,True,pro monthly,2020-04-28,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-28,2021-04-30,374,367,True,False
+846,2020-03-18,2020-03,True,pro monthly,2020-03-25,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-25,2021-04-30,408,401,True,False
+847,2020-01-20,2020-01,True,pro monthly,2020-01-27,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-05-27,2021-04-30,466,459,True,False
+848,2020-12-30,2020-12,True,pro monthly,2021-01-06,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2021-01-06,2021-04-30,121,114,True,False
+849,2020-06-24,2020-06,True,basic monthly,2020-07-01,7,basic monthly,churned,True,2020-10-11,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-10-11,2021-04-30,109,102,False,False
+850,2020-04-22,2020-04,True,basic monthly,2020-04-29,7,pro monthly,churned,True,2020-10-26,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-10-26,2021-04-30,187,180,False,False
+851,2020-07-18,2020-07,True,basic monthly,2020-07-25,7,basic monthly,churned,True,2020-12-06,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-06,2021-04-30,141,134,False,False
+852,2020-03-03,2020-03,True,basic monthly,2020-03-10,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-10,2021-04-30,423,416,True,False
+853,2020-03-22,2020-03,True,pro monthly,2020-03-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-03-29,2021-04-30,404,397,True,False
+854,2020-07-15,2020-07,True,pro monthly,2020-07-22,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-09-22,2021-04-30,289,282,True,False
+855,2020-06-17,2020-06,True,basic monthly,2020-06-24,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-24,2021-04-30,317,310,True,False
+856,2020-05-02,2020-05,True,basic monthly,2020-05-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-05-09,2021-04-30,363,356,True,False
+857,2020-05-16,2020-05,True,basic monthly,2020-05-23,7,pro monthly,churned,True,2020-12-01,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-12-01,2021-04-30,199,192,False,False
+858,2020-03-22,2020-03,True,pro monthly,2020-03-29,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-05-29,2021-04-30,404,397,True,False
+859,2020-11-15,2020-11,False,,,,,churned,True,2020-11-22,trial,2,0,False,trial > churn,churn,2020-11-22,2021-04-30,7,,False,False
+860,2020-07-01,2020-07,True,pro monthly,2020-07-08,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-08,2021-04-30,303,296,True,False
+861,2020-07-22,2020-07,True,basic monthly,2020-07-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-29,2021-04-30,282,275,True,False
+862,2020-07-18,2020-07,False,,,,,churned,True,2020-07-25,trial,2,0,False,trial > churn,churn,2020-07-25,2021-04-30,7,,False,False
+863,2020-02-11,2020-02,True,pro monthly,2020-02-18,7,pro monthly,churned,True,2020-04-20,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-04-20,2021-04-30,69,62,False,False
+864,2020-04-08,2020-04,True,pro annual,2020-04-15,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-04-15,2021-04-30,387,380,True,True
+865,2020-02-21,2020-02,True,basic monthly,2020-02-28,7,pro monthly,churned,True,2020-07-20,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-07-20,2021-04-30,150,143,False,False
+866,2020-07-15,2020-07,True,basic monthly,2020-07-22,7,pro monthly,churned,True,2021-03-25,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-03-25,2021-04-30,253,246,False,False
+867,2020-04-02,2020-04,True,pro monthly,2020-04-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-04-09,2021-04-30,393,386,True,False
+868,2020-03-14,2020-03,True,pro annual,2020-03-21,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-03-21,2021-04-30,412,405,True,True
+869,2020-12-02,2020-12,True,basic monthly,2020-12-09,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-09,2021-04-30,149,142,True,False
+870,2020-08-11,2020-08,True,basic monthly,2020-08-18,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-23,2021-04-30,262,255,True,False
+871,2020-12-18,2020-12,True,basic monthly,2020-12-25,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-03-07,2021-04-30,133,126,True,False
+872,2020-10-18,2020-10,True,basic monthly,2020-10-25,7,basic monthly,churned,True,2021-03-12,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-03-12,2021-04-30,145,138,False,False
+873,2020-03-24,2020-03,True,pro monthly,2020-03-31,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-06-30,2021-04-30,402,395,True,False
+874,2020-04-08,2020-04,True,basic monthly,2020-04-15,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-04-15,2021-04-30,387,380,True,False
+875,2020-03-13,2020-03,True,basic monthly,2020-03-20,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-12-04,2021-04-30,413,406,True,False
+876,2020-04-09,2020-04,True,basic monthly,2020-04-16,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-19,2021-04-30,386,379,True,False
+877,2020-03-23,2020-03,True,basic monthly,2020-03-30,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-03-30,2021-04-30,403,396,True,False
+878,2020-07-27,2020-07,True,basic monthly,2020-08-03,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-23,2021-04-30,277,270,True,False
+879,2020-09-10,2020-09,True,basic monthly,2020-09-17,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-17,2021-04-30,232,225,True,False
+880,2020-08-05,2020-08,True,basic monthly,2020-08-12,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-10,2021-04-30,268,261,True,False
+881,2020-10-17,2020-10,True,pro monthly,2020-10-24,7,pro monthly,churned,True,2020-11-25,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-25,2021-04-30,39,32,False,False
+882,2020-02-22,2020-02,True,basic monthly,2020-02-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-29,2021-04-30,433,426,True,False
+883,2020-03-05,2020-03,True,basic monthly,2020-03-12,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-07-19,2021-04-30,421,414,True,False
+884,2020-11-01,2020-11,True,basic monthly,2020-11-08,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-25,2021-04-30,180,173,True,False
+885,2020-03-08,2020-03,True,basic monthly,2020-03-15,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-22,2021-04-30,418,411,True,False
+886,2020-12-09,2020-12,True,pro monthly,2020-12-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-16,2021-04-30,142,135,True,False
+887,2020-05-12,2020-05,True,pro monthly,2020-05-19,7,pro monthly,churned,True,2020-09-25,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-09-25,2021-04-30,136,129,False,False
+888,2020-02-25,2020-02,True,pro monthly,2020-03-03,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-05-03,2021-04-30,430,423,True,False
+889,2020-08-20,2020-08,True,basic monthly,2020-08-27,7,pro monthly,churned,True,2021-03-03,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-03-03,2021-04-30,195,188,False,False
+890,2020-09-22,2020-09,True,pro monthly,2020-09-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-29,2021-04-30,220,213,True,False
+891,2020-05-07,2020-05,True,basic monthly,2020-05-14,7,pro monthly,churned,True,2021-02-02,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2021-02-02,2021-04-30,271,264,False,False
+892,2020-07-20,2020-07,False,,,,,churned,True,2020-07-27,trial,2,0,False,trial > churn,churn,2020-07-27,2021-04-30,7,,False,False
+893,2020-05-16,2020-05,True,basic monthly,2020-05-23,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-15,2021-04-30,349,342,True,False
+894,2020-11-26,2020-11,True,pro monthly,2020-12-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-12-03,2021-04-30,155,148,True,False
+895,2020-09-07,2020-09,True,basic monthly,2020-09-14,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-02-15,2021-04-30,235,228,True,False
+896,2020-05-31,2020-05,True,basic monthly,2020-06-07,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-16,2021-04-30,334,327,True,False
+897,2020-06-24,2020-06,True,basic monthly,2020-07-01,7,pro monthly,churned,True,2020-12-30,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-12-30,2021-04-30,189,182,False,False
+898,2020-05-10,2020-05,False,,,,,churned,True,2020-05-17,trial,2,0,False,trial > churn,churn,2020-05-17,2021-04-30,7,,False,False
+899,2020-04-27,2020-04,True,basic monthly,2020-05-04,7,basic monthly,churned,True,2020-07-14,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-07-14,2021-04-30,78,71,False,False
+900,2020-09-27,2020-09,True,pro monthly,2020-10-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-04,2021-04-30,215,208,True,False
+901,2020-04-21,2020-04,True,basic monthly,2020-04-28,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-05-22,2021-04-30,374,367,True,False
+902,2020-12-29,2020-12,True,basic monthly,2021-01-05,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2021-01-05,2021-04-30,122,115,True,False
+903,2020-05-09,2020-05,True,basic monthly,2020-05-16,7,basic monthly,churned,True,2020-06-17,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-06-17,2021-04-30,39,32,False,False
+904,2020-06-29,2020-06,False,,,,,churned,True,2020-07-06,trial,2,0,False,trial > churn,churn,2020-07-06,2021-04-30,7,,False,False
+905,2020-02-19,2020-02,True,pro monthly,2020-02-26,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-26,2021-04-30,436,429,True,False
+906,2020-04-14,2020-04,True,basic monthly,2020-04-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-04-29,2021-04-30,381,374,True,False
+907,2020-03-24,2020-03,True,basic monthly,2020-03-31,7,pro monthly,churned,True,2020-10-20,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-10-20,2021-04-30,210,203,False,False
+908,2020-02-09,2020-02,True,pro monthly,2020-02-16,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-16,2021-04-30,446,439,True,False
+909,2020-09-09,2020-09,True,basic monthly,2020-09-16,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-18,2021-04-30,233,226,True,False
+910,2020-07-23,2020-07,True,pro monthly,2020-07-30,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-07-30,2021-04-30,281,274,True,False
+911,2020-05-01,2020-05,True,basic monthly,2020-05-08,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-05,2021-04-30,364,357,True,False
+912,2020-12-16,2020-12,True,pro monthly,2020-12-23,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-23,2021-04-30,135,128,True,False
+913,2020-12-27,2020-12,True,pro monthly,2021-01-03,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2021-01-03,2021-04-30,124,117,True,False
+914,2020-07-18,2020-07,True,basic monthly,2020-07-25,7,pro monthly,churned,True,2020-10-05,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-10-05,2021-04-30,79,72,False,False
+915,2020-09-28,2020-09,True,pro monthly,2020-10-05,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-05,2021-04-30,214,207,True,False
+916,2020-01-19,2020-01,True,pro monthly,2020-01-26,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-02-26,2021-04-30,467,460,True,True
+917,2020-07-07,2020-07,True,basic monthly,2020-07-14,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-10,2021-04-30,297,290,True,False
+918,2020-06-03,2020-06,True,basic monthly,2020-06-10,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-12-01,2021-04-30,331,324,True,False
+919,2020-09-12,2020-09,False,,,,,churned,True,2020-09-19,trial,2,0,False,trial > churn,churn,2020-09-19,2021-04-30,7,,False,False
+920,2020-08-19,2020-08,True,pro monthly,2020-08-26,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-26,2021-04-30,254,247,True,False
+921,2020-07-26,2020-07,True,basic monthly,2020-08-02,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-11-20,2021-04-30,278,271,True,False
+922,2020-11-02,2020-11,True,pro monthly,2020-11-09,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-09,2021-04-30,179,172,True,False
+923,2020-08-28,2020-08,True,pro monthly,2020-09-04,7,pro monthly,churned,True,2020-11-04,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-11-04,2021-04-30,68,61,False,False
+924,2020-06-19,2020-06,True,basic monthly,2020-06-26,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-02,2021-04-30,315,308,True,False
+925,2020-09-21,2020-09,True,basic monthly,2020-09-28,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-02-04,2021-04-30,221,214,True,False
+926,2020-07-12,2020-07,True,basic monthly,2020-07-19,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-02-13,2021-04-30,292,285,True,False
+927,2020-01-13,2020-01,True,pro monthly,2020-01-20,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-20,2021-04-30,473,466,True,False
+928,2020-07-08,2020-07,False,,,,,churned,True,2020-07-15,trial,2,0,False,trial > churn,churn,2020-07-15,2021-04-30,7,,False,False
+929,2020-04-02,2020-04,True,basic monthly,2020-04-09,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-08-13,2021-04-30,393,386,True,False
+930,2020-02-14,2020-02,True,basic monthly,2020-02-21,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-03-24,2021-04-30,441,434,True,False
+931,2020-01-27,2020-01,True,basic monthly,2020-02-03,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2020-04-12,2021-04-30,459,452,True,True
+932,2020-11-01,2020-11,True,pro annual,2020-11-08,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-11-08,2021-04-30,180,173,True,False
+933,2020-05-08,2020-05,True,basic monthly,2020-05-15,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-06-24,2021-04-30,357,350,True,False
+934,2020-01-07,2020-01,True,pro monthly,2020-01-14,7,pro monthly,churned,True,2020-04-25,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-04-25,2021-04-30,109,102,False,False
+935,2020-01-25,2020-01,False,,,,,churned,True,2020-02-01,trial,2,0,False,trial > churn,churn,2020-02-01,2021-04-30,7,,False,False
+936,2020-09-18,2020-09,True,pro monthly,2020-09-25,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-25,2021-04-30,224,217,True,False
+937,2020-02-22,2020-02,True,pro monthly,2020-02-29,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-08-29,2021-04-30,433,426,True,False
+938,2020-08-01,2020-08,True,basic monthly,2020-08-08,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-11-08,2021-04-30,272,265,True,False
+939,2020-03-20,2020-03,True,basic monthly,2020-03-27,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-16,2021-04-30,406,399,True,False
+940,2020-01-17,2020-01,True,pro monthly,2020-01-24,7,pro monthly,churned,True,2020-03-22,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-03-22,2021-04-30,65,58,False,False
+941,2020-09-15,2020-09,True,pro monthly,2020-09-22,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-09-22,2021-04-30,227,220,True,False
+942,2020-12-06,2020-12,True,basic monthly,2020-12-13,7,basic monthly,churned,True,2021-01-18,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-01-18,2021-04-30,43,36,False,False
+943,2020-11-13,2020-11,True,basic monthly,2020-11-20,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-01-14,2021-04-30,168,161,True,False
+944,2020-09-24,2020-09,True,basic monthly,2020-10-01,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2021-01-14,2021-04-30,218,211,True,False
+945,2020-01-07,2020-01,True,basic monthly,2020-01-14,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-03-25,2021-04-30,479,472,True,True
+946,2020-07-10,2020-07,True,pro monthly,2020-07-17,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-12-17,2021-04-30,294,287,True,False
+947,2020-07-13,2020-07,True,basic monthly,2020-07-20,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-09-19,2021-04-30,291,284,True,False
+948,2020-03-16,2020-03,True,basic monthly,2020-03-23,7,basic monthly,churned,True,2020-08-18,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-08-18,2021-04-30,155,148,False,False
+949,2020-10-07,2020-10,True,pro monthly,2020-10-14,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-14,2021-04-30,205,198,True,False
+950,2020-09-13,2020-09,True,pro monthly,2020-09-20,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-01-20,2021-04-30,229,222,True,False
+951,2020-07-30,2020-07,True,pro monthly,2020-08-06,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-06,2021-04-30,274,267,True,False
+952,2020-08-22,2020-08,True,pro monthly,2020-08-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-29,2021-04-30,251,244,True,False
+953,2020-09-08,2020-09,True,basic monthly,2020-09-15,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-09-15,2021-04-30,234,227,True,False
+954,2020-11-23,2020-11,False,,,,,churned,True,2020-11-30,trial,2,0,False,trial > churn,churn,2020-11-30,2021-04-30,7,,False,False
+955,2020-07-28,2020-07,True,pro monthly,2020-08-04,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-08-04,2021-04-30,276,269,True,False
+956,2020-02-20,2020-02,True,basic monthly,2020-02-27,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-01-12,2021-04-30,435,428,True,False
+957,2020-04-28,2020-04,False,,,,,churned,True,2020-05-05,trial,2,0,False,trial > churn,churn,2020-05-05,2021-04-30,7,,False,False
+958,2020-07-06,2020-07,True,basic monthly,2020-07-13,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-01-22,2021-04-30,298,291,True,False
+959,2020-04-22,2020-04,True,basic monthly,2020-04-29,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-04-29,2021-04-30,373,366,True,False
+960,2020-10-22,2020-10,True,pro monthly,2020-10-29,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-02-28,2021-04-30,190,183,True,False
+961,2020-09-12,2020-09,True,basic monthly,2020-09-19,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-11-21,2021-04-30,230,223,True,False
+962,2020-06-03,2020-06,True,basic monthly,2020-06-10,7,pro monthly,churned,True,2020-11-20,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-11-20,2021-04-30,170,163,False,False
+963,2020-01-04,2020-01,True,pro monthly,2020-01-11,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-11,2021-04-30,482,475,True,False
+964,2020-10-09,2020-10,True,basic monthly,2020-10-16,7,basic monthly,churned,True,2021-02-27,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-02-27,2021-04-30,141,134,False,False
+965,2020-06-19,2020-06,True,basic monthly,2020-06-26,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-06-26,2021-04-30,315,308,True,False
+966,2020-02-09,2020-02,True,basic monthly,2020-02-16,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-02-16,2021-04-30,446,439,True,False
+967,2020-08-21,2020-08,True,basic monthly,2020-08-28,7,pro annual,pro annual,False,,,4,2,True,trial > basic monthly > pro monthly > pro annual,pro annual,2021-04-15,2021-04-30,252,245,True,False
+968,2020-11-22,2020-11,True,pro monthly,2020-11-29,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-11-29,2021-04-30,159,152,True,False
+969,2020-02-21,2020-02,True,pro monthly,2020-02-28,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-06-28,2021-04-30,434,427,True,False
+970,2020-10-05,2020-10,True,basic monthly,2020-10-12,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-10-12,2021-04-30,207,200,True,False
+971,2020-01-02,2020-01,True,pro monthly,2020-01-09,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-01-09,2021-04-30,484,477,True,False
+972,2020-02-05,2020-02,True,pro annual,2020-02-12,7,pro annual,pro annual,False,,,2,0,False,trial > pro annual,pro annual,2020-02-12,2021-04-30,450,443,True,True
+973,2020-01-08,2020-01,False,,,,,churned,True,2020-01-15,trial,2,0,False,trial > churn,churn,2020-01-15,2021-04-30,7,,False,False
+974,2020-09-10,2020-09,True,basic monthly,2020-09-17,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2020-10-16,2021-04-30,232,225,True,False
+975,2020-11-15,2020-11,True,basic monthly,2020-11-22,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-04-30,2021-04-30,166,159,True,False
+976,2020-11-11,2020-11,True,basic monthly,2020-11-18,7,pro annual,pro annual,False,,,3,1,True,trial > basic monthly > pro annual,pro annual,2021-02-13,2021-04-30,170,163,True,False
+977,2020-08-04,2020-08,True,basic monthly,2020-08-11,7,basic monthly,churned,True,2020-11-03,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-11-03,2021-04-30,91,84,False,False
+978,2020-08-27,2020-08,True,pro monthly,2020-09-03,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2020-11-03,2021-04-30,246,239,True,False
+979,2020-12-28,2020-12,True,basic monthly,2021-01-04,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2021-01-04,2021-04-30,123,116,True,False
+980,2020-06-12,2020-06,True,pro monthly,2020-06-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-06-19,2021-04-30,322,315,True,False
+981,2020-02-16,2020-02,True,pro monthly,2020-02-23,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-02-23,2021-04-30,439,432,True,False
+982,2020-06-13,2020-06,True,basic monthly,2020-06-20,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-10-14,2021-04-30,321,314,True,False
+983,2020-12-12,2020-12,True,basic monthly,2020-12-19,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-12-19,2021-04-30,139,132,True,False
+984,2020-06-30,2020-06,True,basic monthly,2020-07-07,7,basic monthly,churned,True,2020-09-30,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-09-30,2021-04-30,92,85,False,False
+985,2020-08-02,2020-08,False,,,,,churned,True,2020-08-09,trial,2,0,False,trial > churn,churn,2020-08-09,2021-04-30,7,,False,False
+986,2020-11-16,2020-11,True,basic monthly,2020-11-23,7,basic monthly,churned,True,2021-04-13,basic monthly,3,0,False,trial > basic monthly > churn,churn,2021-04-13,2021-04-30,148,141,False,False
+987,2020-01-05,2020-01,False,,,,,churned,True,2020-01-12,trial,2,0,False,trial > churn,churn,2020-01-12,2021-04-30,7,,False,False
+988,2020-05-02,2020-05,False,,,,,churned,True,2020-05-09,trial,2,0,False,trial > churn,churn,2020-05-09,2021-04-30,7,,False,False
+989,2020-09-03,2020-09,True,pro monthly,2020-09-10,7,pro annual,pro annual,False,,,3,1,True,trial > pro monthly > pro annual,pro annual,2021-01-10,2021-04-30,239,232,True,False
+990,2020-07-23,2020-07,True,basic monthly,2020-07-30,7,basic monthly,basic monthly,False,,,2,0,False,trial > basic monthly,basic monthly,2020-07-30,2021-04-30,281,274,True,False
+991,2020-10-18,2020-10,True,pro monthly,2020-10-25,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-25,2021-04-30,194,187,True,False
+992,2020-10-17,2020-10,True,pro monthly,2020-10-24,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-24,2021-04-30,195,188,True,False
+993,2020-10-31,2020-10,False,,,,,churned,True,2020-11-07,trial,2,0,False,trial > churn,churn,2020-11-07,2021-04-30,7,,False,False
+994,2020-07-25,2020-07,True,basic monthly,2020-08-01,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-08-27,2021-04-30,279,272,True,False
+995,2020-06-11,2020-06,True,basic monthly,2020-06-18,7,pro monthly,pro monthly,False,,,3,1,True,trial > basic monthly > pro monthly,pro monthly,2020-12-06,2021-04-30,323,316,True,False
+996,2020-11-11,2020-11,True,basic monthly,2020-11-18,7,basic monthly,churned,True,2020-12-07,basic monthly,3,0,False,trial > basic monthly > churn,churn,2020-12-07,2021-04-30,26,19,False,False
+997,2020-07-27,2020-07,True,basic monthly,2020-08-03,7,pro monthly,churned,True,2020-11-14,pro monthly,4,1,True,trial > basic monthly > pro monthly > churn,churn,2020-11-14,2021-04-30,110,103,False,False
+998,2020-10-12,2020-10,True,pro monthly,2020-10-19,7,pro monthly,pro monthly,False,,,2,0,False,trial > pro monthly,pro monthly,2020-10-19,2021-04-30,200,193,True,False
+999,2020-10-23,2020-10,True,pro monthly,2020-10-30,7,pro monthly,churned,True,2020-12-01,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-12-01,2021-04-30,39,32,False,False
+1000,2020-03-19,2020-03,True,pro monthly,2020-03-26,7,pro monthly,churned,True,2020-06-04,pro monthly,3,0,False,trial > pro monthly > churn,churn,2020-06-04,2021-04-30,77,70,False,False
