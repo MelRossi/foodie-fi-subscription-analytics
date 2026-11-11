@@ -9,9 +9,6 @@
 | **Obtención** | Las tablas existen como sentencias `INSERT` SQL. `scripts/extract_raw_data.py` las extrae a CSV **sin modificar ningún valor**. |
 | **Fuente usada** | Copia pública del script SQL en GitHub (URL por defecto en el script) |
 
-> **Licencia / términos de uso:** el dataset pertenece al autor del desafío. Antes de publicar el repositorio,
-> verificá sus condiciones de uso. Si preferís no versionar los datos, quitá `data/raw/` del repo y dejá que el
-> script los descargue (`python scripts/extract_raw_data.py`).
 
 ## `raw/` — datos originales (solo lectura)
 
