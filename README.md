@@ -1,61 +1,90 @@
-# Foodie-Fi · Análisis de clientes de un servicio de suscripción
+# Datos
 
-Proyecto de Data Analytics en **Python** (pandas, NumPy, matplotlib/seaborn, Jupyter) sobre el ciclo de vida de clientes de un servicio
-de streaming por suscripción: **conversión, cohortes, retención/churn y segmentación**, con foco en recomendaciones de negocio.
+## Procedencia
 
-> **Estado:** en desarrollo · Etapa 1 de 5 completada. Este README se ampliará con hallazgos y recomendaciones cuando existan los análisis.
+| | |
+|---|---|
+| **Dataset** | Foodie-Fi — *8-Week SQL Challenge, Case Study #3* |
+| **Naturaleza** | **Sintético** (creado para un ejercicio educativo de SQL; no son clientes reales) |
+| **Obtención** | Las tablas existen como sentencias `INSERT` SQL. `scripts/extract_raw_data.py` las extrae a CSV **sin modificar ningún valor**. |
+| **Fuente usada** | Copia pública del script SQL en GitHub (URL por defecto en el script) |
 
-## Preguntas de negocio
-1. ¿Qué proporción de las pruebas gratuitas (trial) se convierte en clientes de pago, y a qué plan?
-2. ¿Cómo evoluciona la retención de cada cohorte mensual de clientes?
-3. ¿Cuándo y desde qué plan cancelan los clientes?
-4. ¿Qué recorridos de plan (trial → … → churn) son los más frecuentes y cuáles se asocian con más cancelaciones?
-5. ¿Qué segmentos conductuales de clientes existen y cuánto valen?
-6. ¿Qué acciones concretas podrían mejorar conversión y retención?
+> **Licencia / términos de uso:** el dataset pertenece al autor del desafío. Antes de publicar el repositorio,
+> verificá sus condiciones de uso. Si preferís no versionar los datos, quitá `data/raw/` del repo y dejá que el
+> script los descargue (`python scripts/extract_raw_data.py`).
 
-## Hoja de ruta
+## `raw/` — datos originales (solo lectura)
 
-| 1. Carga, limpieza y validación 
-| 2. EDA: embudo y comportamiento 
-| 3. Cohortes, retención y churn 
-| 4. Segmentación de clientes 
-| 5. Insights y recomendaciones
+El notebook 01 calcula el hash SHA-256 de estos archivos al inicio y al final para demostrar que no se alteran.
 
-## Estructura del repositorio
+**`plans.csv`** — catálogo de planes (5 filas)
 
-```
-foodie-fi-subscription-analytics/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── README.md                 # procedencia y diccionario de datos
-│   ├── raw/                      # originales (solo lectura): plans.csv, subscriptions.csv
-│   └── processed/                # datasets limpios generados por el notebook 01
-├── notebooks/                    # un notebook por etapa, numerados
-├── reports/
-│   └── figures/                  # gráficos exportados (PNG)
-└── scripts/
-    └── extract_raw_data.py       # reconstruye data/raw/ desde el SQL original
-```
+| Columna | Descripción |
+|---|---|
+| `plan_id` | Identificador del plan (0–4) |
+| `plan_name` | `trial`, `basic monthly`, `pro monthly`, `pro annual`, `churn` |
+| `price` | Precio de lista (moneda **no especificada** en la fuente). Vacío en `churn`. |
 
-El notebook 01 corre de punta a punta y regenera `data/processed/` y las figuras. Probado con pandas 2.2.3 y 3.0.6 (resultados idénticos).
+**`subscriptions.csv`** — eventos de suscripción (2.650 filas)
 
-## Datos y limitaciones
+| Columna | Descripción |
+|---|---|
+| `customer_id` | Cliente (1–1000) |
+| `plan_id` | Plan que **comienza** en esa fecha |
+| `start_date` | Fecha de inicio del plan (`YYYY-MM-DD`) |
 
-- **Dataset sintético** (*8-Week SQL Challenge, Case Study #3*): no representa un negocio real, por lo que las conclusiones no son generalizables.
-- **Sin atributos demográficos ni de canal:** la segmentación es **conductual** (recorrido de planes y tiempos).
-- **Ingresos estimados** a partir de precios de lista (moneda no especificada en la fuente), no de pagos reales.
-- **Censura desigual:** los trials comienzan durante 2020 y la observación llega hasta el 30-abr-2021; cada cohorte tiene una ventana de seguimiento distinta.
-- Detalles y decisiones de limpieza: ver notebook 01 y [`data/README.md`](data/README.md).
+## `processed/` — datos limpios (generados por el notebook 01)
 
-## Calidad de los datos (resultado de la etapa 1)
+### `foodie_fi_events_clean.csv` — una fila por evento (2.650 filas)
 
-- 2.650 eventos de 1.000 clientes; sin nulos reales, duplicados ni claves huérfanas; fechas validadas.
-- 8 reglas de negocio críticas verificadas (trial de 7 días, churn terminal, sin downgrades, etc.): **0 violaciones**.
-- Cifras del caso de estudio publicado reproducidas exactamente (eventos desde 2021 por plan: 8 / 60 / 63 / 71).
-- **Dos advertencias documentadas** que condicionan la interpretación de la retención:
-  - **A1:** 19 de 25 planes anuales ya vencidos al corte no registran ningún evento posterior (renovación implícita o churn no registrado); se tratan como activos y quedan marcados.
-  - **A2:** ningún evento ocurre pasados 184 días del inicio de un plan mensual, y 308 de 441 clientes activos en plan mensual superan ese plazo sin evento. La retención de largo plazo en planes mensuales **no es informativa**.
+| Columna | Descripción |
+|---|---|
+| `customer_id`, `plan_id`, `plan_name`, `start_date` | Del original, con tipos correctos |
+| `price` | Precio de lista; `0.0` para *trial* y *churn* |
+| `is_paid_plan` | `True` si el plan tiene precio > 0 |
+| `event_seq` | Orden del evento dentro del cliente (1 = trial) |
+| `next_start_date` | Fecha del evento siguiente del mismo cliente (vacío si es el último) |
+| `days_in_plan` | Días hasta el evento siguiente; si es el último, hasta el corte. Vacío en *churn* |
+| `duration_is_censored` | `True` si `days_in_plan` se cortó en la fecha de observación (plan vigente) |
+| `prev_plan_id`, `prev_plan_name` | Plan inmediatamente anterior |
+| `is_first_event`, `is_last_event` | Posición dentro de la historia del cliente |
+| `is_churn_event` | El evento es una cancelación |
+| `is_conversion` | Paso de *trial* a un plan pago |
+| `is_upgrade` | Cambio a un plan de mayor nivel (basic → pro monthly/annual, pro monthly → annual) |
 
-## Stack
-Python · pandas · NumPy · matplotlib · seaborn · Jupyter
+### `foodie_fi_customers_clean.csv` — una fila por cliente (1.000 filas)
+
+| Columna | Descripción |
+|---|---|
+| `customer_id` | Cliente |
+| `trial_start_date`, `cohort_month` | Inicio del trial y cohorte (`YYYY-MM`) |
+| `converted_to_paid` | Pasó a algún plan pago |
+| `first_paid_plan`, `first_paid_date` | Primer plan pago y su fecha (vacío si nunca pagó) |
+| `days_trial_to_paid` | Días entre inicio del trial y primer plan pago |
+| `last_paid_plan` | Último plan pago contratado |
+| `current_plan` | Plan vigente al corte, o `churned` |
+| `is_churned`, `churn_date`, `churned_from_plan` | Cancelación, su fecha y el plan desde el que cancela |
+| `n_events`, `n_upgrades`, `ever_upgraded` | Actividad del cliente |
+| `plan_path` | Recorrido completo, p. ej. `trial > basic monthly > pro monthly > churn` |
+| `last_event_plan`, `last_event_date` | Último evento registrado |
+| `observation_end` | Fecha de corte de observación (**supuesto**: última fecha registrada) |
+| `follow_up_days` | Días observados desde el inicio del trial hasta el churn o el corte |
+| `paid_days` | Días como cliente pago hasta el churn o el corte (vacío si nunca pagó) |
+| `is_censored` | `True` si el cliente sigue activo al corte (no se conoce su desenlace) |
+| `annual_term_expired_no_event` | Plan anual vencido al corte sin evento posterior; se trata como activo (advertencia A1) |
+
+## Glosario
+
+Los datos conservan los nombres originales en inglés; en gráficos, tablas y textos de los notebooks se muestran en español.
+
+| En los datos | En el análisis |
+|---|---|
+| `trial` | Prueba gratuita (7 días) |
+| `basic monthly` | Básico mensual |
+| `pro monthly` | Pro mensual |
+| `pro annual` | Pro anual |
+| `churn` | Cancelación |
+| *upgrade* (columnas `is_upgrade`, `n_upgrades`) | Mejora de plan: pasar a un plan de mayor nivel |
+| `is_churned`, `churn_date` | Cliente cancelado y fecha de cancelación |
+
+Los nombres de columnas se mantienen en inglés (convención técnica); su significado está en las tablas de arriba.
