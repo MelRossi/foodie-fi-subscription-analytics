@@ -1,0 +1,7 @@
+id,recomendación,tipo,impacto,esfuerzo,solidez,comentario,puntaje,prioridad
+R6,Tablero mensual con ventanas equivalentes,Seguimiento,2,1,3,Barato y metodológicamente sólido; hace medibles las demás,6.0,Alta
+R1,Registrar renovaciones y cancelaciones del plan anual,Datos,3,2,3,Brecha de datos demostrada; desbloquea decisiones sobre 1/3 del valor,4.5,Alta
+R5,Registrar motivo de cancelación y atributos del cliente,Datos,3,2,3,Brecha de datos demostrada; habilita retención dirigida,4.5,Alta
+R3,Propuesta de mejora para Básico sin cambios,Acción comercial,2,1,2,"Oportunidad concreta, pero chica y sin explicación del comportamiento",4.0,Alta
+R2,Retención continua en los primeros 6 meses,Acción comercial,3,2,2,"Principal frente de pérdida, pero se desconoce el porqué",3.0,Media
+R4,Oferta del anual en la renovación mensual,Acción comercial,3,2,1,Depende de R1: la renovación al año es desconocida,1.5,Baja

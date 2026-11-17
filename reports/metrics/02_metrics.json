@@ -1,0 +1,58 @@
+{
+  "clientes": 1000,
+  "convertidos": 908,
+  "tasa_conversion": 0.908,
+  "cancelacion_total": 307,
+  "cancelacion_en_prueba": 92,
+  "cancelacion_tras_pagar": 215,
+  "activos_al_corte": 693,
+  "pct_cancelacion_tras_pagar": 0.7003257328990228,
+  "p_conversion_por_cohorte": 0.7320004431625744,
+  "p_mezcla_por_cohorte": 0.29607032017214563,
+  "razon_tasas_basico_vs_pro": 1.0469987556123563,
+  "razon_tasas_ic_inf": 0.7894461556022159,
+  "razon_tasas_ic_sup": 1.3865012911016965,
+  "p_cancelacion_basico_vs_pro": 0.7811511863639802,
+  "p_cancelacion_robustez": 0.9287461916002526,
+  "cancelacion_total_ventana_completa": {
+    "Básico mensual": 0.2471655328798186,
+    "Pro mensual": 0.2426470588235294
+  },
+  "mejora_ventana_completa": {
+    "basic monthly": 0.6303854875283447,
+    "pro monthly": 0.2316176470588235
+  },
+  "n_ventana_completa": {
+    "basic monthly": 441,
+    "pro monthly": 272
+  },
+  "mediana_dias_mejora": {
+    "basic monthly": 92.0,
+    "pro monthly": 92.0
+  },
+  "mediana_dias_cancelacion": {
+    "basic monthly": 84.0,
+    "pro monthly": 90.0
+  },
+  "mejora_acumulada_90d": {
+    "basic monthly": 0.29931972789115646,
+    "pro monthly": 0.058823529411764705
+  },
+  "eventos_mejora_de_plan": 435,
+  "eventos_cancelacion_desde_mensual": 209,
+  "pct_mejora_pro_mensual_en_renovacion": 0.972972972972973,
+  "anual_directo": 37,
+  "anual_activos": 252,
+  "anual_por_mejora": 217,
+  "anual_pct_base_activa": 0.36363636363636365,
+  "anual_pct_valor": 0.35702996181086555,
+  "anual_pct_base_activa_sensibilidad": 0.3456973293768546,
+  "anual_pct_valor_sensibilidad": 0.33924309580634165,
+  "precio_mensual_equivalente": {
+    "basic monthly": 9.9,
+    "pro monthly": 19.9,
+    "pro annual": 16.583333333333332
+  },
+  "descuento_anual_vs_pro_mensual": 0.16666666666666663,
+  "tope_dias_plan_mensual": 184
+}

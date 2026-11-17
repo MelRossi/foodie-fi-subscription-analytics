@@ -1,0 +1,78 @@
+{
+  "segmentos": {
+    "Cancelaron en la prueba gratuita": {
+      "clientes": 92,
+      "pct_clientes": 0.092,
+      "valor": 0.0,
+      "pct_valor": 0.0
+    },
+    "Cancelaron tras pagar": {
+      "clientes": 215,
+      "pct_clientes": 0.215,
+      "valor": 0.0,
+      "pct_valor": 0.0
+    },
+    "Básico sin cambios": {
+      "clientes": 125,
+      "pct_clientes": 0.125,
+      "valor": 1237.5,
+      "pct_valor": 0.10572495279754633
+    },
+    "Pro mensual directo": {
+      "clientes": 178,
+      "pct_clientes": 0.178,
+      "valor": 3542.2,
+      "pct_valor": 0.3026253962015908
+    },
+    "Mejoraron a Pro mensual": {
+      "clientes": 138,
+      "pct_clientes": 0.138,
+      "valor": 2746.2,
+      "pct_valor": 0.23461968918999734
+    },
+    "Anual directo": {
+      "clientes": 35,
+      "pct_clientes": 0.035,
+      "valor": 580.4166666666666,
+      "pct_valor": 0.04958749469595355
+    },
+    "Mejoraron al anual": {
+      "clientes": 217,
+      "pct_clientes": 0.217,
+      "valor": 3598.583333333333,
+      "pct_valor": 0.30744246711491197
+    }
+  },
+  "grupos": {
+    "Perdidos": {
+      "clientes": 307,
+      "pct_valor": 0.0
+    },
+    "Activos mensuales": {
+      "clientes": 441,
+      "pct_valor": 0.6429700381891345
+    },
+    "Activos anuales": {
+      "clientes": 252,
+      "pct_valor": 0.35702996181086555
+    }
+  },
+  "valor_total_mensual_estimado": 11704.9,
+  "p_antiguedad_segmentos": 0.5218456668262244,
+  "p_cohorte_segmentos": 0.07468426241285854,
+  "basico_sin_cambios_184d": 95,
+  "uplift_10_basico_a_pro": 99.99999999999999,
+  "uplift_10_pct_valor": 0.008543430529094651,
+  "descuento_anual": 0.16666666666666663,
+  "tasa_equilibrio_anual": 0.03384585815469342,
+  "ventaja_anual_12m": {
+    "min": 0.009228272547394445,
+    "promedio": 0.04331684712785755,
+    "max": 0.10981828095127599
+  },
+  "tasa_mensual_observada": {
+    "min": 0.03559127439724455,
+    "promedio": 0.04193868038979239,
+    "max": 0.05390070921985816
+  }
+}
