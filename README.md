@@ -103,8 +103,9 @@ foodie-fi-subscription-analytics/
 │   ├── figures/                  # gráficos exportados (PNG)
 │   ├── metrics/                  # cifras clave de cada etapa (JSON)
 │   └── recomendaciones_priorizadas.csv
+├── docs/                         # notebooks exportados a HTML 
 ├── src/
-│   └── plot_style.py             # paleta, nombres en español y formato de números
+│   └── plot_style.py             # paleta, nombres y formato de números
 └── scripts/
     ├── extract_raw_data.py       # reconstruye data/raw/ desde el SQL original
     └── export_html.py            # exporta los notebooks a docs/
